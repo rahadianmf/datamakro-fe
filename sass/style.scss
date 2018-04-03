@@ -3,7 +3,9 @@
 
 * { @include boxSizing(border-box); }
 aside , article { padding-top: 33px; display: inline-block; margin: 0px 0px; }
-aside { width: 239px; padding-right: 30px; }
+aside { width: 239px; padding-right: 30px; vertical-align: top; background-image: url('../img/material/bgaside.png'); background-position: right top; background-repeat: no-repeat; 
+	b { @extend .b-link; }
+}
 article { width: 925px; padding-left: 30px; }
 button, input { font-family: calibri, sans-serif; }
 header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0px; z-index: 2; 
@@ -27,7 +29,7 @@ header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0p
 		&:hover , &:click , &:active , &:visited , &:focus { opacity: 1; }
 	}
 	.f-login { border: 1px solid $orange; padding: 16px 21px; color: $orange; }
-	&.active { position: fixed; background: $blue; }
+	&.active { position: fixed; background: $blue2; }
 }
 html, body { font-size: 16px; font-family: calibri, sans-serif; }
 footer { background: $gray2; padding: 40px 0px; 
@@ -46,6 +48,8 @@ footer { background: $gray2; padding: 40px 0px;
 	}
 }
 
+.b { font-weight: bolder; }
+.b-link { color: $blue; display: block; margin: 0px 0px 13px; font-size: 22px; font-weight: bolder; }
 .banner { padding: 238px 0px 106px; color: $white; @extend .tc;
 	h1 { font-size: 36px; line-height: 56px; text-transform: uppercase; }
 	h4 { font-size: 18px; line-height: 24px; padding-top: 10px; padding-bottom: 106px; }
@@ -58,10 +62,36 @@ footer { background: $gray2; padding: 40px 0px;
 	.bigsearch { top: 16px; left: 245px; position: absolute; width: 27px; height: 27px; background: url('../img/material/search-big.png'); }
 	.b-wrapper { width: 1031px; }
 }
+.bg-gray { background-color: $gray; }
+.bg-gray2 { background-color: $gray2; }
+.bg-gray3 { background-color: $gray3; }
+.bg-gray4 { background-color: $gray4; }
+.bg-gray5 { background-color: $gray5; }
+.box { padding: 15px 20px; position: relative;
+	&.hbb { border-bottom: 1px solid $gray4; }
+}
 .bs-bb { @include boxSizing(border-box); } 
+.btn { padding: 10px 21px; font-size: 16px; @include borderRadius(8px); border: 1px solid transparent;
+	&.bbor { color: $orange; border: 1px solid $orange;
+		&:hover , &:active , &:focus { background-color: $orange; color: $white;}
+	}
+}
+.c-blue { color: $blue; }
+.c-gray { color: $gray; }
+.c-gray2 { color: $gray2; }
+.c-gray3 { color: $gray3; }
+.c-gray4 { color: $gray4; }
+.c-gray5 { color: $gray5; }
+.c-orange { color: $orange; }
+.ch-title { font-size: 22px; font-weight: bolder; 
+	&.hm { margin-bottom: 22px; }
+	&.hm2 { margin-bottom: 15px; }
+	&.big { font-size: 36px; }
+}
 .cb , .cba:after , .cbb:after { @extend .db; clear: both; }
 .content { padding: 93px 0px 80px;
 	&.c-home { padding: 80px 0px; }
+	&.c-standard { padding: 156px 0px 93px; }
 }
 .data-home {
 	.dh-list { float: left; width: 50%; padding-bottom: 30px;
@@ -105,16 +135,110 @@ footer { background: $gray2; padding: 40px 0px;
 	&.fs-tw { background: url('../img/material/fs-tw.png'); }
 	&:hover { opacity: 1; }
 } 
+.fwn { font-weight: normal; }
+.line-dashed { background-color: transparent; margin: 10px 0px; width: 0px; display: block; width: 100%; border-bottom: 1px dashed #b0b0b0; }
+.m0 { margin: 0px 0px; }
 .m0a { margin: 0 auto; }
+.mw100 { max-width: 100%; }
+.p0 { padding: 0px 0px; }
 .pa { position: absolute; }
 .pf { position: fixed; }
 .pi { position: inherit }
 .pr { position: relative; }
 .ps { position: static; }
+.search-list {
+	a { line-height: 20px; position: absolute; display: inline-block; top: 50%; right: 20px; resize:vertical; @include transform(translateY(-50%)); 
+		&:hover {
+			.splus { background-color: $white;
+				&::before , &::after { background-color: $orange; }
+			}
+		}		
+	}
+	b { @extend .ch-title; font-weight: normal; }
+	p { margin-bottom: 0px; }
+	span { color: $gray; }
+	.splus { position: relative; float: left; margin-right: 15px; width: 20px; height: 20px; background-color: $orange; @include borderRadius(30px); 
+		&::before , &::after { background-color: $white; content: ""; display: block; position: absolute; }
+		&::before { width: 10px; height: 2px; top: 9px; left: 5px; }
+		&::after { width: 2px; height: 10px; top: 5px; left: 9px; }
+	} 
+}
 .tc { text-align: center; }
 .tl { text-align: left; }
 .tr { text-align: right; }
+.w100 { width: 100%; }
 .wrapper { width: 1168px; @extend .m0a; }
+
+/*third party*/
+/* Customize the label (the side-filter) */
+.side-filter {
+  display: block;
+  position: relative;
+  padding-left: 29px;
+  padding-top: 2px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.side-filter input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 1px solid $gray;
+}
+
+/* On mouse-over, add a grey background color */
+.side-filter:hover input ~ .checkmark {
+  background-color: $gray2;
+}
+
+/* When the checkbox is checked, add a blue background */
+.side-filter input:checked ~ .checkmark {
+  background-color: $blue; border: 1px solid $blue; 
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.side-filter input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.side-filter .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
 
 /*Media Queries*/
 @media (max-width:991px) {
