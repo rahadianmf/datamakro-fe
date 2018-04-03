@@ -81,6 +81,19 @@ font-family: 'Amita', cursive;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box; }
 
+aside, article {
+  padding-top: 33px;
+  display: inline-block;
+  margin: 0px 0px; }
+
+aside {
+  width: 239px;
+  padding-right: 30px; }
+
+article {
+  width: 925px;
+  padding-left: 30px; }
+
 button, input {
   font-family: calibri, sans-serif; }
 
@@ -95,8 +108,10 @@ header {
     width: 30%; }
   header .h-right {
     width: 70%; }
-  header .h-logo img {
-    height: 31px; }
+  header .h-logo {
+    padding-top: 4px; }
+    header .h-logo img {
+      height: 31px; }
   header .h-menu a {
     font-size: 18px;
     color: #ffffff;
@@ -134,6 +149,9 @@ header {
     border: 1px solid #ff9c01;
     padding: 16px 21px;
     color: #ff9c01; }
+  header.active {
+    position: fixed;
+    background: #006585; }
 
 html, body {
   font-size: 16px;
@@ -176,7 +194,7 @@ footer {
     background: #ffffff;
     padding: 12px 8px;
     font-size: 16px;
-    width: 180px;
+    width: 220px;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -269,8 +287,10 @@ footer {
 .cb, .cba:after, .cbb:after {
   clear: both; }
 
-.content.c-home {
-  padding: 80px 0px; }
+.content {
+  padding: 93px 0px 80px; }
+  .content.c-home {
+    padding: 80px 0px; }
 
 .data-home .dh-list {
   float: left;
@@ -308,12 +328,32 @@ footer {
 .dib, .fs {
   display: inline-block; }
 
+.fhl {
+  display: inline-block;
+  width: 27px;
+  height: 22px;
+  position: absolute;
+  margin-right: 7px;
+  left: 0px;
+  top: 8px; }
+  .fhl.fhl-1 {
+    background: url("../img/material/fhl-1.png"); }
+  .fhl.fhl-2 {
+    background: url("../img/material/fhl-2.png"); }
+  .fhl.fhl-3 {
+    background: url("../img/material/fhl-3.png"); }
+
 .filter-home {
   padding-bottom: 40px; }
   .filter-home .fh-list li {
-    padding: 11px 40px 11px 0px;
+    padding: 11px 40px 11px 37px;
     position: relative;
-    opacity: 0.5; }
+    opacity: 0.3;
+    transition: all 0.15s ease-out;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -ms-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out; }
     .filter-home .fh-list li a {
       color: #000000;
       font-size: 18px; }

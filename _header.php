@@ -21,7 +21,7 @@
     <script type="text/javascript" src="js/js-running.js"></script>
 </head>
 <body>
-    <header>
+    <header class = "<?php if($header == 'active'){ echo 'active'; } ?>">
         <div class="wrapper">
             <div class="h-left fl">
                 <div class="dib h-logo">

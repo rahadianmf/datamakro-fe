@@ -1,4 +1,4 @@
-<?php include ('_header.php'); ?>
+<?php $page = ""; $header = "active"; include ('_header.php'); ?>
 <section class = "banner" style = "background-image:url('img/content/banner-home.jpg'); background-size: cover;">
 	<div class="wrapper b-wrapper">
 		<h1>Trustworthy Indonesia economic database</h1>
