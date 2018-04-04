@@ -1,6 +1,6 @@
 <?php $page = "active"; $header = "active"; include ('_header.php'); ?>
 <section class = "content c-standard">
-	<div class="wrapper">
+	<div class="wrapper type-2">
 		<h1 class="c-blue ch-title big hm fwn">Produk Domestik Bruto</h1>
 		<br/>
 		<br/>
@@ -8,37 +8,38 @@
 		<div class= "line-dashed"></div>
 		<div class="box-desc">
 			<div class="list">
-				<b class = "c-blue">Source :</b>
-				<p class="m0">Badan Pusat Statistik</p>
+				<b class = "c-gray3">Source :</b>
+				<p class="m0 c-gray3">Badan Pusat Statistik</p>
 			</div>
 			<div class="list">
-				<b class = "c-blue">Unit :</b>
-				<p class="m0">IDR Billion</p>
+				<b class = "c-gray3">Unit :</b>
+				<p class="m0 c-gray3">IDR Billion</p>
 			</div>
 			<div class="list">
-				<b class = "c-blue">Frequency :</b>
-				<p class="m0">5 Years</p>
+				<b class = "c-gray3">Frequency :</b>
+				<p class="m0 c-gray3">5 Years</p>
 			</div>
 		</div>
 		<div class= "line-dashed"></div>
 		<div class="db">
-			<div class="dib relative">
+			<div class="form-group dib relative">
 				<select>
 					<option value="">6 Years</option>
 				</select>
 				<span class = "arr-select"></span>
 			</div>
-			<div class="dib relative">
+			<div class="form-group dib relative">
 				<select>
 					<option value="">Yearly</option>
 				</select>
 				<span class = "arr-select"></span>
 			</div>
 		</div>
+		<br/>
 		<div class="db">
 			<img class="w-100" src="img/material/graph-pdb.jpg">
 		</div>
-		<div class="db c-gray3">
+		<div class="article db c-gray3">
 			<p>
 				Pertumbuhan ekonomi Q2-17 tumbuh 5.01% YoY, stabil dari kuartal sebelumnya. Investasi yang tumbuh lebih cepat 5.35% YoY di Q2-17 dari 4.78% YoY Q1-17 menjadi penopang pertumbuhan secara keseluruhan. Untuk faktor penghambat, kontribusi ekspor netto turun dan belanja pemerintah tumbuh negatif. Pertumbuhan konsumsi rumah tangga stabil di 4.95% YoY.
 			</p>
@@ -80,3 +81,14 @@
 	</div>
 </section>
 <?php include ('_footer.php'); ?>
+<script type="text/javascript">
+	$(window).load(function(){
+	    var maxHeight = 0, maxHeight2 = 0, ww = $(window).width();
+	    if(ww >= 768){
+	        $('.re-search .b-link').each(function(){
+	           maxHeight = $(this).height() > maxHeight ? $(this).height() : maxHeight;
+	        });
+	        $('.re-search .b-link').css("height",maxHeight);
+		}
+	});
+</script>

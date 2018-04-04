@@ -47,9 +47,18 @@ footer { background: $gray2; padding: 40px 0px;
 		button { @include appearance(none); border: none; background: $orange; color: $white; font-size: 16px; padding: 12px 21px; @include borderRadius(7px); }
 	}
 }
+select { @include appearance(none); @include borderRadius(7px); padding: 8px 50px 8px 15px; border: 1px solid #7f7f7f; color: #7f7f7f; position: relative; }
 
+.article { padding: 30px 0px;
+	p { font-size: 16px; line-height: 24px; margin-bottom: 30px; }
+}
+.arr-select { @include transform(translateY(-52%)); display: block; z-index: 2; position: absolute; resize: vertical; width: 12px; height: 7px; top: 52%; right: 16px; background-color: transparent;  
+	&::before , &::after { content:""; background-color: #7f7f7f; position: absolute; @include rotate(45deg); } 
+	&::before { width: 9px; height: 1px; top: 2px; }
+	&::after { width: 1px; height: 9px; top: -2px; right: 0px; }
+}
 .b { font-weight: bolder; }
-.b-link { color: $blue; display: block; margin: 0px 0px 13px; font-size: 22px; font-weight: bolder; }
+.b-link { color: $blue; display: block; margin: 0px 0px 13px; font-size: 22px; line-height: 30px; font-weight: bolder; }
 .banner { padding: 238px 0px 106px; color: $white; @extend .tc;
 	h1 { font-size: 36px; line-height: 56px; text-transform: uppercase; }
 	h4 { font-size: 18px; line-height: 24px; padding-top: 10px; padding-bottom: 106px; }
@@ -60,7 +69,9 @@ footer { background: $gray2; padding: 40px 0px;
 		input { width: 743px; height: 60px; padding: 17px 30px 17px 65px; color: $gray; font-size: 16px; @include borderRadius(0px 40px 40px 0px); }
 	}
 	.bigsearch { top: 16px; left: 245px; position: absolute; width: 27px; height: 27px; background: url('../img/material/search-big.png'); }
-	.b-wrapper { width: 1031px; }
+	.b-wrapper { width: 1031px; 
+		&.type-2 { width: 970px; }
+	}
 }
 .bg-gray { background-color: $gray; }
 .bg-gray2 { background-color: $gray2; }
@@ -69,6 +80,10 @@ footer { background: $gray2; padding: 40px 0px;
 .bg-gray5 { background-color: $gray5; }
 .box { padding: 15px 20px; position: relative;
 	&.hbb { border-bottom: 1px solid $gray4; }
+}
+.box-desc , .re-search { position: relative;
+	.list { float: left; width: 25%; padding: 3px 20px 3px 0px; }
+	&::after { content: ""; display: block; clear: both; }
 }
 .bs-bb { @include boxSizing(border-box); } 
 .btn { padding: 10px 21px; font-size: 16px; @include borderRadius(8px); border: 1px solid transparent;
@@ -107,6 +122,9 @@ footer { background: $gray2; padding: 40px 0px;
 .db { display: block; }
 .di { display: inline; }
 .dib { display: inline-block; }
+.dw { font-size: 19px; color: $orange;
+	span { width: 18px; height: 20px; background: url('../img/material/dw.png'); position: relative; display: inline-block; margin-right: 10px; }
+}
 .fhl { display: inline-block; width: 27px; height: 22px; position: absolute; margin-right: 7px; left: 0px; top: 8px;
 	&.fhl-1 { background: url('../img/material/fhl-1.png'); }
 	&.fhl-2 { background: url('../img/material/fhl-2.png'); }
@@ -126,6 +144,7 @@ footer { background: $gray2; padding: 40px 0px;
 	.fh-title { font-size: 30px; }
 }
 .fl { float: left; }
+.form-group { position: relative; margin-right: 10px; padding: 15px 0px; }
 .fn { float: none; }
 .fr { float: right; }
 .fs { @extend .dib; width: 25px; height: 25px; margin-right: 7px; opacity: 0.5;
@@ -146,6 +165,11 @@ footer { background: $gray2; padding: 40px 0px;
 .pi { position: inherit }
 .pr { position: relative; }
 .ps { position: static; }
+.re-search { padding: 20px 0px; 
+	.list {
+
+	}
+}
 .search-list {
 	a { line-height: 20px; position: absolute; display: inline-block; top: 50%; right: 20px; resize:vertical; @include transform(translateY(-50%)); 
 		&:hover {
@@ -166,7 +190,7 @@ footer { background: $gray2; padding: 40px 0px;
 .tc { text-align: center; }
 .tl { text-align: left; }
 .tr { text-align: right; }
-.w100 { width: 100%; }
+.w-100 { width: 100%; }
 .wrapper { width: 1168px; @extend .m0a; }
 
 /*third party*/
