@@ -23,13 +23,13 @@
 		<div class= "line-dashed"></div>
 		<div class="db">
 			<div class="form-group dib relative">
-				<select>
+				<select class = "hb">
 					<option value="">6 Years</option>
 				</select>
 				<span class = "arr-select"></span>
 			</div>
 			<div class="form-group dib relative">
-				<select>
+				<select class = "hb">
 					<option value="">Yearly</option>
 				</select>
 				<span class = "arr-select"></span>
