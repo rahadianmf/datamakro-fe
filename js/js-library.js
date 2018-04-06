@@ -16,3 +16,17 @@ $.fn.isOnScreen = function () {
     } else
         return false
 };
+
+$.fn.fileInputC = function (e) {
+    var elem = this, input = elem.find("input");
+
+    input.on('change', function () {
+        value = $(this).val();
+        if (value != "") {
+            value = value.substring(12, value.length);
+            $(this).next("span").html(value);
+        } else {
+            $(this).next("span").html(elem.attr('placeholder-text'));
+        }
+    });
+}
