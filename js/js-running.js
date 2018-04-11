@@ -10,4 +10,7 @@ $(window).on("load",function() {
 			scrollTop: $(".section-2").offset().top
 		}, 500);
 	});
+	popup();
+	plusmin();
+	accordion();
 });
