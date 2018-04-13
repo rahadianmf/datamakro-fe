@@ -13,4 +13,6 @@ $(window).on("load",function() {
 	popup();
 	plusmin();
 	accordion();
+	bSearchSpan();
+	tabHome();
 });

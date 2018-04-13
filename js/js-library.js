@@ -60,3 +60,40 @@ function accordion(){
         $(this).parents(".accordion").toggleClass("active");
     });
 }
+
+function bSearchSpan(){
+    $(".b-search span").click(function(){
+        $(this).parents(".drop").find(".list-cont").slideToggle(200);
+        $(this).toggleClass("active");
+    });
+    $(".b-search .list").click(function(){
+        var text = $(this).html();
+        $(".b-search .button font").html(text);
+        $(this).parents(".drop").find(".list-cont").slideToggle(200);
+        $(".b-search span").toggleClass("active");
+        $(".b-search input").attr("placeholder","Search "+text+" here...");
+    });
+}
+
+function tabHome(){
+    $(".tab-trigger").click(function(e){
+        e.preventDefault();
+        var title = $(this).data("title");
+        var id = $(this).data("id");
+        $(".tabtitle").html(title);
+        $(".tab-trigger").removeClass("active");
+        $(this).addClass("active");
+        $(".tabhome").removeClass("active");
+        $("#"+id+"").addClass("active");
+    });
+}
+
+function stayHeader() {
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > $("header").outerHeight()) {
+            $("header").hasClass('active') ? "" : $("header").addClass('active');
+        } else {
+            $("header").hasClass('active') ? $("header").removeClass('active') : "";
+        }
+    })
+}

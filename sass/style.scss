@@ -1,5 +1,5 @@
 @import 'sass-library';
-/*font : hind (find out in google)*/
+@import url('https://fonts.googleapis.com/css?family=Hind:400,500,700');
 
 * { @include boxSizing(border-box); }
 aside , article { padding-top: 33px; display: inline-block; margin: 0px 0px; }
@@ -12,13 +12,16 @@ form {
 	&.three-quarter { width: 75%; }
 }
 header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0px; z-index: 2; 
+	&.active { @extend .pf; }
 	.h-left { width: 30%; }
 	.h-right { width: 70%; }
 	.h-logo { @extend .fl; padding-top: 4px;
 		img { height: 31px; }
 	}
 	.h-menu {
-		a { font-size: 18px; color: $white; padding: 15px 23px 15px 10px; }
+		a { font-size: 18px; color: $white; padding: 15px 23px 15px 10px; @include transition(all .2s ease-out); 
+			&:hover , &.active { color: $orange; }
+		}
 		li {
 			&:last-child {
 				a { padding-right: 30px; }
@@ -34,7 +37,7 @@ header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0p
 	.f-login { border: 1px solid $orange; padding: 16px 21px; color: $orange; }
 	&.active { position: fixed; background: $blue2; }
 }
-html, body { font-size: 16px; font-family: calibri, sans-serif; }
+html, body { font-size: 16px; font-family: Hind, calibri, sans-serif; }
 footer { background: $gray2; padding: 40px 0px; 
 	.f-copy { color: $gray; font-size: 14px; }
 	.f-menu { margin-bottom: 12px;
@@ -152,9 +155,16 @@ table { width: 100%;
 	h1 { font-size: 36px; line-height: 56px; text-transform: uppercase; }
 	h4 { font-size: 18px; line-height: 24px; padding-top: 10px; padding-bottom: 106px; }
 	.b-search { display: block; @extend .m0a; width: 968px; @extend .pr; padding-bottom: 56px;
-		button { position: relative; @include borderRadius(40px 0px 0px 40px); padding: 10px 30px; font-size: 20px; text-align: left; width: 225px; height: 60px; @include appearance(none); background: $orange; color: $white; border: none; 
-			span { position: absolute; width: 20px; height: 11px; background: url('../img/material/banner-arrow.png'); right: 25px; top: 25px; }
+		.button { line-height: 44px; position: relative; @include borderRadius(40px 0px 0px 40px); padding: 10px 30px; font-size: 20px; text-align: left; width: 225px; height: 60px; @include appearance(none); background: $orange; color: $white; border: none; 
+			span { cursor: pointer; position: absolute; width: 20px; height: 11px; background: url('../img/material/banner-arrow.png'); right: 25px; top: 25px; @include transition(all .2s ease-out); @include rotate(0deg); 
+				&.active { @include rotate(180deg); }
+			}
 		} 
+		.list-cont { display: none; top: 69px; left: 0px; text-align: left; width: 225px; padding-left: 20px;
+			.list { cursor: pointer; @include transition(opacity .2s ease-out); padding: 13px 35px; opacity: 1; background: $orange; margin-bottom: 7px; @include borderRadius(0px); 
+				&:hover { opacity: 1; } 
+			}
+		}
 		input { width: 743px; height: 60px; padding: 17px 30px 17px 65px; color: $gray; font-size: 16px; @include borderRadius(0px 40px 40px 0px); }
 	}
 	.bigsearch { top: 16px; left: 245px; position: absolute; width: 27px; height: 27px; background: url('../img/material/search-big.png'); }
@@ -170,7 +180,7 @@ table { width: 100%;
 	&.hbb { border-bottom: 1px solid $gray4; }
 }
 .box-desc , .re-search { position: relative;
-	.list { float: left; width: 25%; padding: 3px 20px 3px 0px; }
+	.list { float: left; width: 25%; padding: 6px 20px 3px 0px; }
 	&::after { content: ""; display: block; clear: both; }
 }
 .box-subreq { border: 1px solid #e1e1e1; padding: 60px 50px;
@@ -273,13 +283,15 @@ table { width: 100%;
 } 
 .filter-home { padding-bottom: 40px;
 	.fh-list {
-		li { padding: 11px 40px 11px 37px; position: relative; opacity: 0.3; @include transition(all .15s ease-out);
-			a { color: $black; font-size: 18px; }
+		li { padding: 11px 40px 11px 37px; position: relative; 
+			a { color: $black; font-size: 18px; opacity: 0.3; @include transition(all .15s ease-out); }
 			&:after { content: ""; position: absolute; width: 1px; top: 7px; right: 20px; bottom: 7px; background: $gray; }
 			&:last-child { padding-right: 0px; border-right: none; 
 				&:after { display: none; }
 			}
-			&:hover , &.active { opacity: 1; }
+			&:hover , &.active {
+				a { opacity: 1; }
+			}
 		}
 	}
 	.fh-title { font-size: 30px; }
@@ -288,7 +300,7 @@ table { width: 100%;
 .form-group { position: relative; margin-right: 20px; padding: 15px 0px; }
 .fn { float: none; }
 .fr { float: right; }
-.fs { @extend .dib; width: 25px; height: 25px; margin-right: 7px; opacity: 0.5;
+.fs { @extend .dib; width: 25px; height: 25px; margin-right: 7px; opacity: 0.5; @include transition(opacity .2s ease-out);
 	&.fs-fb { background: url('../img/material/fs-fb.png'); }
 	&.fs-ig { background: url('../img/material/fs-ig.png'); }
 	&.fs-in { background: url('../img/material/fs-in.png'); }
@@ -367,6 +379,9 @@ table { width: 100%;
 	} 
 }
 .span-upload { padding: 8px 0px; font-size: 13px; }
+.tabhome { display: none; 
+	&.active { display: block; }
+}
 .tc { text-align: center; }
 .tl { text-align: left; }
 .tr { text-align: right; }
