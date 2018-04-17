@@ -34,7 +34,7 @@
                 <div class="dib h-menu">
                     <nav>
                         <ul>
-                            <li class="dib fl"><a class = "<?php if($page == 'data-tree'){ echo 'active'; } ?>" href="">Data Tree</a></li>
+                            <li class="dib fl"><a class = "<?php if($page == 'data-tree'){ echo 'active'; } ?>" href="categories.php">Data Tree</a></li>
                             <li class="dib fl"><a class = "<?php if($page == 'data-talk'){ echo 'active'; } ?>" href="data-talk.php">Data Talk</a></li>
                             <li class="dib fl"><a class = "<?php if($page == 'about'){ echo 'active'; } ?>" href="about.php">About</a></li>
                         </ul>
@@ -49,8 +49,58 @@
                     </form>
                 </div>
                 <div class="dib tr">
-                    <a class = "btn f-login" href="">LOG IN</a>
+                    <a data-id = "loginpopup" class = "btn f-login popup-trigger" href="">LOG IN</a>
                 </div>
             </div>
         </div>
     </header>
+    <section id = "loginpopup" class = "popup type2">
+        <div class="wrapper type-popup">
+            <div class="pop-content">
+                <span class = "pop-close"></span>
+                <div class="side-left">
+                    <div class="centerize">
+                        <div class = ""pr>
+                            <b class = "signin">SIGN IN</b>
+                            <form>
+                                <div class="form-group">
+                                    <span class = "ico-email"></span>
+                                    <input class = "oneline" type = "email" placeholder = "Email" />
+                                </div>
+                                <div class="form-group">
+                                    <span class = "ico-password"></span>
+                                    <input class = "oneline" type = "password" placeholder = "Password" />
+                                </div>
+                                <div class="remember">
+                                    <label class="side-filter">Remember Me
+                                        <input type = "checkbox" name = "sf"/>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="forgot">
+                                    <a class="c-blue" href="">forgot password?</a>
+                                </div>
+                                <div class="cb"></div>
+                                <button class="btn orange w-100">LOG IN</button>
+                            </form>
+                            <span class = "signup db m0a">Don't have account? <a class="i" href="">Sign up Here</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-right">
+                    <div class="content-ins">
+                        <b>WHY REGISTER?</b>
+                        <p>
+                            Subscribe to email updates for economic data series.
+                            Create personalized lists of economic data series.
+                            Save customized graphs and maps for later use.
+                            Build and share personalized dashboards with series 
+                        </p>
+                        <a href="">Learn more about user accounts </a>
+                    </div>
+                    <img src="img/material/side-code.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    

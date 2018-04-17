@@ -1,5 +1,5 @@
 <?php $page = "active"; $header = "active"; include ('_header.php'); ?>
-<section class = "popup">
+<section class = "popup" id = "pcpopup">
 	<div class="wrapper type-popup">
 		<div class="pop-content">
 			<span class = "pop-close"></span>
@@ -61,7 +61,7 @@
 			<br/>
 			<br/>
 			<br/>
-			<a href="" class="u popup-trigger">Confirm your payment here</a>
+			<a data-id = "pcpopup" href="" class="u popup-trigger">Confirm your payment here</a>
 		</div>
 	</div>
 </section>

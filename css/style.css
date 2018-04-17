@@ -101,6 +101,64 @@ article {
 button, input {
   font-family: calibri, sans-serif; }
 
+footer {
+  background: #e9e9e9;
+  padding: 40px 0px; }
+  footer .f-copy {
+    color: #bbbaba;
+    font-size: 14px; }
+  footer .f-menu {
+    margin-bottom: 12px; }
+    footer .f-menu a {
+      color: #bbbaba;
+      padding-right: 15px;
+      padding-left: 15px;
+      font-size: 18px;
+      line-height: 18px;
+      border-right: 1px solid #bbbaba; }
+      footer .f-menu a:first-child {
+        padding-left: 0px; }
+      footer .f-menu a:last-child {
+        padding-right: 0px;
+        border-right: none; }
+  footer .f-socmed {
+    margin-bottom: 10px; }
+  footer .right p {
+    color: #bbbaba;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    margin-bottom: 0px; }
+  footer .right input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    color: #bbbaba;
+    background: #ffffff;
+    padding: 12px 8px;
+    font-size: 16px;
+    width: 220px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px; }
+  footer .right button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background: #ff9c01;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 21px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px; }
+
 form.three-quarter {
   width: 75%; }
 
@@ -171,64 +229,6 @@ html, body {
   font-size: 16px;
   font-family: Hind, calibri, sans-serif; }
 
-footer {
-  background: #e9e9e9;
-  padding: 40px 0px; }
-  footer .f-copy {
-    color: #bbbaba;
-    font-size: 14px; }
-  footer .f-menu {
-    margin-bottom: 12px; }
-    footer .f-menu a {
-      color: #bbbaba;
-      padding-right: 15px;
-      padding-left: 15px;
-      font-size: 18px;
-      line-height: 18px;
-      border-right: 1px solid #bbbaba; }
-      footer .f-menu a:first-child {
-        padding-left: 0px; }
-      footer .f-menu a:last-child {
-        padding-right: 0px;
-        border-right: none; }
-  footer .f-socmed {
-    margin-bottom: 10px; }
-  footer .right p {
-    color: #bbbaba;
-    font-size: 16px;
-    text-transform: uppercase;
-    padding-bottom: 8px;
-    margin-bottom: 0px; }
-  footer .right input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    color: #bbbaba;
-    background: #ffffff;
-    padding: 12px 8px;
-    font-size: 16px;
-    width: 220px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px; }
-  footer .right button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    background: #ff9c01;
-    color: #ffffff;
-    font-size: 16px;
-    padding: 12px 21px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px; }
-
 input.search {
   font-size: 16px;
   padding: 13px 50px 13px 15px;
@@ -258,6 +258,11 @@ input.oneline {
   position: relative; }
   input.oneline.noicon {
     padding-left: 0px; }
+input.big {
+  width: 20px;
+  height: 20px;
+  background: white;
+  margin-top: 10px; }
 
 select {
   font-size: 16px;
@@ -444,6 +449,8 @@ table {
   .accordion .content-acc {
     padding: 20px 0px 40px;
     display: none; }
+    .accordion .content-acc.active {
+      display: block; }
 
 .article {
   padding: 30px 0px; }
@@ -654,7 +661,7 @@ table {
         padding: 13px 35px;
         opacity: 1;
         background: #ff9c01;
-        margin-bottom: 7px;
+        margin-bottom: 0px;
         border-radius: 0px;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
@@ -790,7 +797,7 @@ table {
 .cat {
   padding: 0px 0px 7px; }
   .cat .head-cat {
-    font-size: 19px;
+    font-size: 17px;
     padding: 5px 0px; }
     .cat .head-cat .plus-min {
       transition: all 0.3s ease-out;
@@ -1242,6 +1249,62 @@ table {
     margin-bottom: 100px;
     background: #ffffff;
     padding: 58px; }
+  .popup.type2 .pop-content {
+    padding: 0px; }
+    .popup.type2 .pop-content .pop-close {
+      top: -30px;
+      right: 0px;
+      background: #ff9c01;
+      width: 30px;
+      height: 30px; }
+      .popup.type2 .pop-content .pop-close::before, .popup.type2 .pop-content .pop-close::after {
+        left: 14px;
+        top: 5px;
+        background: #ffffff; }
+    .popup.type2 .pop-content .side-left {
+      width: 45%;
+      float: left;
+      padding: 45px 25px;
+      position: relative; }
+      .popup.type2 .pop-content .side-left b.signin {
+        font-size: 22px;
+        margin-bottom: 20px;
+        display: block; }
+      .popup.type2 .pop-content .side-left .remember, .popup.type2 .pop-content .side-left .forgot {
+        width: 50%;
+        float: left;
+        margin: 15px 0px 5px; }
+      .popup.type2 .pop-content .side-left .forgot {
+        text-align: right; }
+      .popup.type2 .pop-content .side-left .signup {
+        margin-top: 20px;
+        display: block;
+        text-align: center; }
+      .popup.type2 .pop-content .side-left .form-group {
+        margin-right: 0px; }
+    .popup.type2 .pop-content .side-right {
+      width: 55%;
+      float: left;
+      position: relative;
+      line-height: 0; }
+      .popup.type2 .pop-content .side-right img {
+        position: relative;
+        width: 100%; }
+      .popup.type2 .pop-content .side-right .content-ins {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        z-index: 2;
+        width: 80%;
+        color: #ffffff;
+        line-height: auto; }
+        .popup.type2 .pop-content .side-right .content-ins b {
+          display: block;
+          margin-bottom: 20px; }
+    .popup.type2 .pop-content::after {
+      content: "";
+      display: block;
+      clear: both; }
 
 .pr, header .h-search, .banner .b-search {
   position: relative; }

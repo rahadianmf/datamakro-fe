@@ -1,4 +1,4 @@
-<?php $page = "active"; $header = "active"; include ('_header.php'); ?>
+<?php $page = "data-tree"; $header = "active"; include ('_header.php'); ?>
 <section class = "content">
 	<div class="wrapper">
 		<aside>
@@ -134,12 +134,12 @@
 		<article class = "two-column">
 			<!-- <p class="c-blue ch-title big hm">CPI Lorem Ipsum</p> -->
 			<div class="db article">
-				<div class="accordion">
+				<div class="accordion active">
 					<div class="head-acc">
-						<div class="h-title">CPI Lorem Ipsum <span class = "expand"></span></div>
+						<div class="h-title">CPI Lorem Ipsum <span class = "expand up"></span></div>
 						<div class="h-arrow"></div>
 					</div>
-					<div class="content-acc">
+					<div class="content-acc active">
 						<div class="cat active">
 							<div class="head-cat"><span class = "plus-min min"></span>CPI Lorem Ipsum</div>
 							<div class="content-cat">
@@ -147,6 +147,7 @@
 									<table>
 										<thead>
 											<tr>
+												<th></th>
 												<th>Series</th>
 												<th>Unit</th>
 												<th>Source</th>
@@ -157,6 +158,7 @@
 										</thead>
 										<thead>
 											<tr>
+												<td><input class = "big" type = "checkbox" checked="checked" name = "" /></td>
 												<td>
 												A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 												</td>
@@ -169,6 +171,7 @@
 												<td>14 February 2018</td>
 											</tr>
 											<tr>
+												<td><input class = "big" type = "checkbox" name = "" /></td>
 												<td>
 												A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 												</td>
@@ -181,6 +184,7 @@
 												<td>14 February 2018</td>
 											</tr>
 											<tr>
+												<td><input class = "big" type = "checkbox" name = "" /></td>
 												<td>
 												A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 												</td>
@@ -193,6 +197,7 @@
 												<td>14 February 2018</td>
 											</tr>
 											<tr>
+												<td><input class = "big" type = "checkbox" name = "" /></td>
 												<td>
 												A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 												</td>

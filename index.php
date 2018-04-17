@@ -135,5 +135,7 @@
 <?php include ('_footer.php'); ?>
 
 <script type="text/javascript">
-	stayHeader();
+	$(window).rea(function(){
+
+	});
 </script>

@@ -34,8 +34,9 @@ $.fn.fileInputC = function (e) {
 function popup(){
     $(".popup-trigger").click(function(e){
         e.preventDefault();
+        var id = $(this).data("id");
         $("body, html").css("overflow-y","hidden");
-        $("section.popup").fadeIn(300);
+        $("#"+id+"").fadeIn(300);
     });
     $(".pop-close").click(function(){
         $("section.popup").fadeOut(300);
