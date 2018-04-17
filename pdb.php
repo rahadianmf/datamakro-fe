@@ -1,4 +1,4 @@
-<?php $page = "active"; $header = "active"; include ('_header.php'); ?>
+<?php $page = "data-tree"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
 	<div class="wrapper type-2">
 		<h1 class="c-blue ch-title big hm fwn">Produk Domestik Bruto</h1>
@@ -37,7 +37,7 @@
 		</div>
 		<br/>
 		<div class="db">
-			<img class="w-100" src="img/material/graph-pdb.jpg">
+			<div id="chart" style="width: 100%; height: 400px; margin: 0 auto"></div>
 		</div>
 		<div class="article db c-gray3">
 			<p>
@@ -81,6 +81,9 @@
 	</div>
 </section>
 <?php include ('_footer.php'); ?>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
 <script type="text/javascript">
 	$(window).load(function(){
 	    var maxHeight = 0, maxHeight2 = 0, ww = $(window).width();
@@ -90,5 +93,37 @@
 	        });
 	        $('.re-search .b-link').css("height",maxHeight);
 		}
+	});
+
+	Highcharts.chart('chart', {
+	    chart: {
+	        type: 'line'
+	    },
+	    title: {
+	        text: ''
+	    },
+	    subtitle: {
+	        text: 'Source: WorldClimate.com'
+	    },
+	    xAxis: {
+	        categories: ['2011', '2012', '2013', '2014', '2015', '2016']
+	    },
+	    yAxis: {
+	        title: {
+	            text: ''
+	        }
+	    },
+	    plotOptions: {
+	        line: {
+	            dataLabels: {
+	                enabled: true
+	            },
+	            enableMouseTracking: false
+	        }
+	    },
+	    series: [{
+	        name: '',
+	        data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5]
+	    }]
 	});
 </script>

@@ -1,4 +1,4 @@
-<?php $page = "data-tree"; $header = "active"; include ('_header.php'); ?>
+<?php $page = "data-tree"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
 	<div class="wrapper type-2">
 		<p class="c-blue ch-title big hm">Tutorial</p>

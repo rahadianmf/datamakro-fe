@@ -33,7 +33,7 @@ header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0p
 	.h-logo { @extend .fl; padding-top: 4px;
 		img { height: 31px; }
 	}
-	.h-menu {
+	.h-menu { position: relative; top: 6px;
 		a { font-size: 18px; color: $white; padding: 15px 23px 15px 10px; @include transition(all .2s ease-out); 
 			&:hover , &.active { color: $orange; }
 		}
@@ -325,6 +325,13 @@ table { width: 100%;
     }
 }
 .line-dashed { background-color: transparent; margin: 10px 0px; width: 0px; display: block; width: 100%; border-bottom: 1px dashed #b0b0b0; }
+.logged { color: $orange; font-size: 16px;
+	.login-ico , .arrow { display: inline-block; }
+	.login-ico { width: 25px; height: 25px; background: url('../img/material/login-icon.png'); margin-right: 10px; position: relative; top: 8px; }
+	.arrow { width: 12px; height: 7px; background: url('../img/material/arrow-login.png'); margin-left: 17px; display: inline-block; position: relative; top: 0px; @include transition(all .2s ease-out); cursor: pointer;
+		&.up { @include rotate(180deg); }
+	}
+}
 .m0 { margin: 0px 0px; }
 .m0a { margin: 0 auto; }
 .mw100 { max-width: 100%; }
@@ -418,6 +425,9 @@ table { width: 100%;
 }
 
 /*third party*/
+.highcharts-subtitle { opacity: 0; }
+.highcharts-legend-item , .highcharts-credits { display: none !important; }
+
 /* Customize the label (the side-filter) */
 .side-filter {
   display: block;

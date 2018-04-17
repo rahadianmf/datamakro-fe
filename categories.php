@@ -1,4 +1,4 @@
-<?php $page = "data-tree"; $header = "active"; include ('_header.php'); ?>
+<?php $page = "data-tree"; $header = "active"; $login = "yes"; include ('_header.php'); ?>
 <section class = "content">
 	<div class="wrapper">
 		<aside>
@@ -46,11 +46,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="cat">
+			<div class="cat active">
 				<div class="head-cat"><span class = "plus-min"></span> Prices</div>
 				<div class="content-cat">
 					<div class="cat">
-						<div class="head-cat"><span class = "plus-min"></span> CPI</div>
+						<div class="head-cat"><span class = "plus-min min"></span> CPI</div>
 						<div class="content-cat">
 							<div class="cat">
 								<div class="head-cat"><span class = "plus-min"></span> CPI</div>

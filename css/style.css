@@ -177,19 +177,22 @@ header {
     padding-top: 4px; }
     header .h-logo img {
       height: 31px; }
-  header .h-menu a {
-    font-size: 18px;
-    color: #ffffff;
-    padding: 15px 23px 15px 10px;
-    transition: all 0.2s ease-out;
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out; }
-    header .h-menu a:hover, header .h-menu a.active {
-      color: #ff9c01; }
-  header .h-menu li:last-child a {
-    padding-right: 30px; }
+  header .h-menu {
+    position: relative;
+    top: 6px; }
+    header .h-menu a {
+      font-size: 18px;
+      color: #ffffff;
+      padding: 15px 23px 15px 10px;
+      transition: all 0.2s ease-out;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out; }
+      header .h-menu a:hover, header .h-menu a.active {
+        color: #ff9c01; }
+    header .h-menu li:last-child a {
+      padding-right: 30px; }
   header .h-search {
     opacity: 0.5;
     transition: all 0.15s ease-out;
@@ -1144,6 +1147,39 @@ table {
   width: 100%;
   border-bottom: 1px dashed #b0b0b0; }
 
+.logged {
+  color: #ff9c01;
+  font-size: 16px; }
+  .logged .login-ico, .logged .arrow {
+    display: inline-block; }
+  .logged .login-ico {
+    width: 25px;
+    height: 25px;
+    background: url("../img/material/login-icon.png");
+    margin-right: 10px;
+    position: relative;
+    top: 8px; }
+  .logged .arrow {
+    width: 12px;
+    height: 7px;
+    background: url("../img/material/arrow-login.png");
+    margin-left: 17px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    cursor: pointer; }
+    .logged .arrow.up {
+      -ms-transform: rotate(180deg);
+      /* IE 9 */
+      -webkit-transform: rotate(180deg);
+      /* Chrome, Safari, Opera */
+      transform: rotate(180deg); }
+
 .m0 {
   margin: 0px 0px; }
 
@@ -1412,6 +1448,12 @@ table {
     width: 770px; }
 
 /*third party*/
+.highcharts-subtitle {
+  opacity: 0; }
+
+.highcharts-legend-item, .highcharts-credits {
+  display: none !important; }
+
 /* Customize the label (the side-filter) */
 .side-filter {
   display: block;

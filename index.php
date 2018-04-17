@@ -1,4 +1,4 @@
-<?php $page = ""; $header = ""; include ('_header.php'); ?>
+<?php $page = ""; $header = ""; $login = "no"; include ('_header.php'); ?>
 <section class = "banner" style = "background-image:url('img/content/banner-home.jpg'); background-size: cover;">
 	<div class="wrapper b-wrapper">
 		<h1>Trustworthy Indonesia economic database</h1>

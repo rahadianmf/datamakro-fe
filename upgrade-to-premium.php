@@ -1,4 +1,4 @@
-<?php $page = "active"; $header = "active"; include ('_header.php'); ?>
+<?php $page = "active"; $header = "active"; $login = "yes"; include ('_header.php'); ?>
 <section class = "popup" id = "pcpopup">
 	<div class="wrapper type-popup">
 		<div class="pop-content">

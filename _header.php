@@ -49,7 +49,15 @@
                     </form>
                 </div>
                 <div class="dib tr">
-                    <a data-id = "loginpopup" class = "btn f-login popup-trigger" href="">LOG IN</a>
+                    <?php if($login == "yes"){ ?>
+                        <div class="logged">
+                            <span class = "dib login-ico"></span>
+                            Hi, Remmy
+                            <span class = "dib arrow"></span>
+                        </div>
+                    <?php }else{ ?>
+                        <a data-id = "loginpopup" class = "btn f-login popup-trigger" href="">LOG IN</a>
+                    <?php } ?>
                 </div>
             </div>
         </div>

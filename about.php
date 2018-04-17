@@ -1,4 +1,4 @@
-<?php $page = "about"; $header = "active"; include ('_header.php'); ?>
+<?php $page = "about"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
 	<div class="wrapper type-2">
 		<h1 class="c-blue ch-title big hm fwn">About Datamakro</h1>
