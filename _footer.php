@@ -8,10 +8,10 @@
 					<a href=""><span class = "fs fs-in"></span></a>
 				</div>
 				<div class="db f-menu">
-					<a href="">Tutorials</a>
-					<a href="">Contribution</a>
-					<a href="">Request</a>
-					<a href="">Contact</a>
+					<a href="tutorial.php">Tutorials</a>
+					<a href="join-member.php">Contribution</a>
+					<a href="request-data.php">Request</a>
+					<a href="get-in-touch.php">Contact</a>
 				</div>
 				<div class="db f-copy">Copyright &copy; 2018, Datamakro, All Right Reserved.</div>
 			</div>
