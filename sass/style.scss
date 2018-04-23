@@ -1,5 +1,5 @@
 @import 'sass-library';
-@import url('https://fonts.googleapis.com/css?family=Hind:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Hind:400,500,600,700');
 
 * { @include boxSizing(border-box); }
 aside , article { padding-top: 33px; display: inline-block; margin: 0px 0px; }
@@ -566,12 +566,48 @@ table { width: 100%;
   transform: rotate(45deg);
 }
 
-
 /*Media Queries*/
-@media (max-width:991px) {
+@media screen and (max-width:767px) {
 
 }
-@media (max-width:767px) {
+@media screen and (min-width:1024px) and (max-width:1365px) {
+	footer {
+		.f-socmed { margin-bottom: 16px; }
+		.f-menu {
+			a { font-size: 15px; line-height: 15px; }
+		}
+		.f-copy { font-size: 13px; padding-top: 3px; }
+	}
+	header { padding: 30px 0px;
+		.f-login { padding: 7px 30px; font-size: 14px; }
+		.h-logo { padding-top: 8px;
+			img { height: 27px; }
+		}
+		.h-menu {
+			a { font-size: 15px; padding: 15px 17px 15px 10px; }
+			li {
+				&:last-child {
+					a { padding-right: 10px; }
+				}
+			}
+		}
+	}
+	.banner { padding: 198px 0px 106px;
+		h1 { font-weight: 500; }
+		h4 { padding-top: 17px; opacity: 0.8; font-size: 20px; line-height: 30px; width: 700px; margin: 0 auto; 
+			br { display: none; }
+		}
+		.b-wrapper { width: 100%; }
+	}
+	.data-home {
+		.dh-list {
+			.dhl-title { font-weight: 500; padding-top: 6px; padding-bottom: 12px; }
+			p { line-height: 28px; }
+		}
+	}
+	.wrapper { width: 960px; }
+}
+@media screen and (max-width:991px) {
 
 }
 /*end*/

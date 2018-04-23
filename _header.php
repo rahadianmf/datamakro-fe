@@ -60,6 +60,7 @@
                     <?php } ?>
                 </div>
             </div>
+            <div class="cb"></div>
         </div>
     </header>
     <section id = "loginpopup" class = "popup type2">

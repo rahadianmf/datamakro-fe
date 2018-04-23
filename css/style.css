@@ -22,7 +22,7 @@ font-family: 'Amita', cursive;
 /*end of global variables*/
 /*mixins*/
 /*Font Configuration*/
-@import url("https://fonts.googleapis.com/css?family=Hind:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Hind:400,500,600,700");
 @font-face {
   font-family: 'inconsolataregular';
   src: url("../fonts/inconsolata-regular-webfont.eot");
@@ -1582,6 +1582,56 @@ table {
   transform: rotate(45deg); }
 
 /*Media Queries*/
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+  footer .f-socmed {
+    margin-bottom: 16px; }
+  footer .f-menu a {
+    font-size: 15px;
+    line-height: 15px; }
+  footer .f-copy {
+    font-size: 13px;
+    padding-top: 3px; }
+
+  header {
+    padding: 30px 0px; }
+    header .f-login {
+      padding: 7px 30px;
+      font-size: 14px; }
+    header .h-logo {
+      padding-top: 8px; }
+      header .h-logo img {
+        height: 27px; }
+    header .h-menu a {
+      font-size: 15px;
+      padding: 15px 17px 15px 10px; }
+    header .h-menu li:last-child a {
+      padding-right: 10px; }
+
+  .banner {
+    padding: 198px 0px 106px; }
+    .banner h1 {
+      font-weight: 500; }
+    .banner h4 {
+      padding-top: 17px;
+      opacity: 0.8;
+      font-size: 20px;
+      line-height: 30px;
+      width: 700px;
+      margin: 0 auto; }
+      .banner h4 br {
+        display: none; }
+    .banner .b-wrapper {
+      width: 100%; }
+
+  .data-home .dh-list .dhl-title {
+    font-weight: 500;
+    padding-top: 6px;
+    padding-bottom: 12px; }
+  .data-home .dh-list p {
+    line-height: 28px; }
+
+  .wrapper {
+    width: 960px; } }
 /*end*/
 
 /*# sourceMappingURL=style.css.map */
