@@ -2,7 +2,7 @@
 <section class = "content c-standard">
 	<div class="wrapper type-2">
 		<h1 class="c-blue ch-title big hm fwn">Data Talk</h1>
-		<p class="pre-header">
+		<p class="pre-header c-gray3">
 			Datamakro provides broad series of macro and microeconomic data of Indonesia. Besides providing the data, Datamakro also disseminates wide score of research report to let the data speaks even further. Datamakro is very suitable for student, researcher, analyst, consultant, and policymaker who is seeking trustable data.
 		</p>
 		<div class="db">

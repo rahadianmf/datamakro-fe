@@ -60,7 +60,7 @@ input {
 	&.oneline { font-size: 16px; padding: 11px 50px 11px 40px; width: 100%; border: none; border-bottom:1px solid #d7d7d7; @include appearance(none); color: #d7d7d7; position: relative; 
 		&.noicon { padding-left: 0px; }
 	}
-	&.big { width: 20px; height: 20px; background: white; margin-top: 10px; }
+	&.big { width: 20px; height: 20px; background: white; top: 10px; position: relative; }
 }
 select { font-size: 16px; @include appearance(none); padding: 13px 50px 13px 15px; border: 1px solid #d7d7d7; color: #d7d7d7; position: relative;
 	&.hb { @include borderRadius(7px); }
@@ -153,7 +153,7 @@ table { width: 100%;
 	&::after { content: ""; clear: both; display: block; }
 }
 .b { font-weight: bolder; }
-.b-link { color: $blue; display: block; margin: 0px 0px 13px; font-size: 22px; line-height: 30px; font-weight: bolder; }
+.b-link { color: $blue; display: block; margin: 0px 0px 13px; font-size: 22px; line-height: 30px; font-weight: 500; }
 .banner { padding: 238px 0px 106px; color: $white; @extend .tc;
 	h1 { font-size: 36px; line-height: 56px; text-transform: uppercase; }
 	h4 { font-size: 18px; line-height: 24px; padding-top: 10px; padding-bottom: 106px; }
@@ -183,7 +183,9 @@ table { width: 100%;
 	&.hbb { border-bottom: 1px solid $gray4; }
 }
 .box-desc , .re-search { position: relative;
-	.list { float: left; width: 25%; padding: 6px 20px 3px 0px; }
+	.list { float: left; width: 25%; padding: 6px 20px 3px 0px; 
+		img { width: 100%; }
+	}
 	&::after { content: ""; display: block; clear: both; }
 }
 .box-subreq { border: 1px solid #e1e1e1; padding: 60px 50px;
@@ -340,9 +342,22 @@ table { width: 100%;
 .pa { position: absolute; }
 .pagination { text-align: right; margin-top: 60px;
 	ul {
-		li { padding-left: 15px; display: inline-block; font-size: 18px; 
-			a { color: $gray3;
+		li { padding-left: 15px; display: inline-block; font-size: 18px; position: relative;
+			a { color: $gray3; @include transition(all .2s ease-out);
 				&.active { font-size: 28px; color: $blue; font-weight: bold; }
+			}
+			&:first-child , &:last-child { 
+				a { color: $gray2; }
+				&:hover {
+					a { color: $gray3; }
+					&::after { background-color: $gray3; }
+				}
+			}
+			&:first-child { padding-right: 15px; 
+				&:after { width: 1px; height: 100%; position: absolute; background: $gray2; right: 0px; top: 0; content: ""; }
+			}
+			&:last-child { padding-left: 25px; 
+				&:after { width: 1px; height: 100%; position: absolute; background: $gray2; left: 10px; top: 0; content: ""; }
 			}
 		}
 	}
@@ -417,6 +432,7 @@ table { width: 100%;
 .tl { text-align: left; }
 .tr { text-align: right; }
 .u { text-decoration: underline; }
+.utp2 { margin-top: 110px; display: block; }
 .video-container { margin: 30px 0px; }
 .w-100 { width: 100%; }
 .wrapper { width: 1168px; @extend .m0a; 
@@ -459,6 +475,7 @@ table { width: 100%;
   width: 20px;
   background-color: transparent;
   border: 1px solid $gray;
+  @include borderRadius(4px);
 }
 
 /* On mouse-over, add a grey background color */
@@ -520,7 +537,7 @@ table { width: 100%;
 }
 
 /* Create a custom checkbox */
-.checkmark {
+.checkmark-2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -532,29 +549,29 @@ table { width: 100%;
 }
 
 /* On mouse-over, add a grey background color */
-.side-filter-2:hover input ~ .checkmark {
+.side-filter-2:hover input ~ .checkmark-2 {
   background-color: $gray2;
 }
 
 /* When the checkbox is checked, add a blue background */
-.side-filter-2 input:checked ~ .checkmark {
+.side-filter-2 input:checked ~ .checkmark-2 {
   background-color: $blue; border: 1px solid $blue; 
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.checkmark-2:after {
   content: "";
   position: absolute;
   display: none;
 }
 
 /* Show the checkmark when checked */
-.side-filter-2 input:checked ~ .checkmark:after {
+.side-filter-2 input:checked ~ .checkmark-2:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.side-filter-2 .checkmark:after {
+.side-filter-2 .checkmark-2:after {
   left: 5px;
   top: 1px;
   width: 5px;
@@ -570,44 +587,15 @@ table { width: 100%;
 @media screen and (max-width:767px) {
 
 }
-@media screen and (min-width:1024px) and (max-width:1365px) {
-	footer {
-		.f-socmed { margin-bottom: 16px; }
-		.f-menu {
-			a { font-size: 15px; line-height: 15px; }
-		}
-		.f-copy { font-size: 13px; padding-top: 3px; }
-	}
-	header { padding: 30px 0px;
-		.f-login { padding: 7px 30px; font-size: 14px; }
-		.h-logo { padding-top: 8px;
-			img { height: 27px; }
-		}
-		.h-menu {
-			a { font-size: 15px; padding: 15px 17px 15px 10px; }
-			li {
-				&:last-child {
-					a { padding-right: 10px; }
-				}
-			}
-		}
-	}
-	.banner { padding: 198px 0px 106px;
-		h1 { font-weight: 500; }
-		h4 { padding-top: 17px; opacity: 0.8; font-size: 20px; line-height: 30px; width: 700px; margin: 0 auto; 
-			br { display: none; }
-		}
-		.b-wrapper { width: 100%; }
-	}
-	.data-home {
-		.dh-list {
-			.dhl-title { font-weight: 500; padding-top: 6px; padding-bottom: 12px; }
-			p { line-height: 28px; }
-		}
-	}
-	.wrapper { width: 960px; }
-}
 @media screen and (max-width:991px) {
 
+}
+@media screen and (min-width:1024px) and (max-width:1365px) {
+	@import 'style1024';
+}
+@media (min-width:1366px) {
+	.ch-title {
+		&.hm-l { margin-bottom: 22px; }
+	}
 }
 /*end*/

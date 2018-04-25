@@ -13,7 +13,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">BSIM Economic Outlook 2017-2018</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -22,7 +22,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">Upside Risk to USD Asians</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -31,7 +31,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">BSIM Economic Outlook 2017-2018</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">Upside Risk to USD Asians</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -49,7 +49,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">BSIM Economic Outlook 2017-2018</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -58,7 +58,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">Upside Risk to USD Asians</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -67,7 +67,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">BSIM Economic Outlook 2017-2018</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -76,7 +76,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">Upside Risk to USD Asians</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -85,7 +85,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">BSIM Economic Outlook 2017-2018</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>
@@ -94,7 +94,7 @@
 				<div class="link-title">
 					<a href="tutorial-data.php">Upside Risk to USD Asians</a>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat volutpat. Nunc luctus commodo elit, malesuada feugiat urna sollicitudin non
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus purus et purus volutpat.
 					</p>
 				</div>
 			</div>

@@ -1,4 +1,4 @@
-<?php $page = "active"; $header = "active"; include ('_header.php'); ?>
+<?php $page = "active"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
 	<div class="wrapper type-2 tc">
 		<h1 class="ch-title big404 fwn b hm">404</h1>

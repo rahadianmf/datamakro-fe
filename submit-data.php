@@ -21,11 +21,11 @@
 					<span class = "db c-gray3">Data Type</span>
 					<label class="side-filter-2">Data
 						<input type = "radio" checked="checked" name = "sf"/>
-					  	<span class="checkmark"></span>
+					  	<span class="checkmark-2"></span>
 					</label>
 					<label class="side-filter-2">Publication
 						<input type = "radio" checked="checked" name = "sf"/>
-					  	<span class="checkmark"></span>
+					  	<span class="checkmark-2"></span>
 					</label>
 					<div class="cb"></div>
 				</div>

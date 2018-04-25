@@ -58,10 +58,7 @@
 				<li>Confirm Payment 2</li>
 				<li>Premium Activated 3</li>
 			</ul>
-			<br/>
-			<br/>
-			<br/>
-			<a data-id = "pcpopup" href="" class="u popup-trigger">Confirm your payment here</a>
+			<a data-id = "pcpopup" href="" class="u popup-trigger utp2">Confirm your payment here</a>
 		</div>
 	</div>
 </section>

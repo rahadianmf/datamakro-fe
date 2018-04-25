@@ -1,7 +1,7 @@
 <?php $page = "data-talk"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
 	<div class="wrapper type-2">
-		<h1 class="c-blue ch-title big hm fwn">
+		<h1 class="c-blue ch-title big hm-l fwn">
 			BSIM Economic Report: Investasi Jadi Penopang Ekonomi Kuartal II
 		</h1>
 		<br/>

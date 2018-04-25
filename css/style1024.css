@@ -1,0 +1,125 @@
+article {
+  width: 726px; }
+
+aside {
+  width: 230px; }
+
+footer .f-socmed {
+  margin-bottom: 16px; }
+footer .f-menu a {
+  font-size: 15px;
+  line-height: 15px; }
+footer .f-copy {
+  font-size: 13px;
+  padding-top: 3px; }
+
+header {
+  padding: 30px 0px; }
+  header .f-login {
+    padding: 7px 30px;
+    font-size: 14px; }
+  header .h-logo {
+    padding-top: 8px; }
+    header .h-logo img {
+      height: 27px; }
+  header .h-menu a {
+    font-size: 15px;
+    padding: 15px 17px 15px 10px; }
+  header .h-menu li:last-child a {
+    padding-right: 10px; }
+
+input.search {
+  font-size: 15px;
+  padding: 10px 50px 10px 15px; }
+
+select {
+  padding: 10px 50px 10px 15px;
+  font-size: 15px; }
+
+table tr th {
+  font-size: 15px; }
+table tr td {
+  font-size: 14px; }
+
+.article p {
+  font-size: 18px;
+  line-height: 28px; }
+
+.auth-container .side-left {
+  min-height: 528px; }
+
+.banner {
+  padding: 198px 0px 106px; }
+  .banner h1 {
+    font-weight: 500; }
+  .banner h4 {
+    padding-top: 17px;
+    opacity: 0.8;
+    font-size: 20px;
+    line-height: 30px;
+    width: 700px;
+    margin: 0 auto; }
+    .banner h4 br {
+      display: none; }
+  .banner .b-wrapper {
+    width: 100%; }
+
+.box {
+  padding: 20px 20px; }
+
+.box-desc .list, .re-search .list {
+  padding: 6px 25px 3px 0px; }
+  .box-desc .list img, .re-search .list img {
+    margin-bottom: 15px; }
+  .box-desc .list a, .re-search .list a {
+    font-size: 20px;
+    line-height: 26px; }
+
+.btn {
+  font-size: 15px; }
+
+.cat .content-cat {
+  padding: 7px 25px 0px; }
+
+.content {
+  padding: 103px 0px 80px; }
+  .content.c-standard {
+    padding: 156px 0px 63px; }
+
+.data-home .dh-list .dhl-title {
+  font-weight: 500;
+  padding-top: 6px;
+  padding-bottom: 12px; }
+.data-home .dh-list p {
+  line-height: 28px; }
+
+.data-list .list img {
+  margin-bottom: 15px; }
+
+.data-list-2 .list .link-title a {
+  line-height: 26px; }
+.data-list-2 .list .link-title p {
+  font-size: 14px; }
+
+.pre-header {
+  margin: 30px 0px; }
+  .pre-header.mn {
+    margin: 0px 0px; }
+
+.srestitle {
+  font-size: 26px;
+  line-height: 34px; }
+
+.utp {
+  margin: 0px 0px; }
+
+.utp2 {
+  margin-top: 0px; }
+
+.video-container.t2 {
+  margin: 0px 0px; }
+
+.wrapper, .wrapper.type-2 {
+  width: 960px; }
+
+/*# sourceMappingURL=style1024.css.map */

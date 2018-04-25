@@ -47,10 +47,10 @@
 				</div>
 			</div>
 			<div class="cat active">
-				<div class="head-cat"><span class = "plus-min"></span> Prices</div>
+				<div class="head-cat"><span class = "plus-min min"></span> Prices</div>
 				<div class="content-cat">
 					<div class="cat">
-						<div class="head-cat"><span class = "plus-min min"></span> CPI</div>
+						<div class="head-cat"><span class = "plus-min"></span> CPI</div>
 						<div class="content-cat">
 							<div class="cat">
 								<div class="head-cat"><span class = "plus-min"></span> CPI</div>
@@ -133,7 +133,7 @@
 		</aside>
 		<article class = "two-column">
 			<!-- <p class="c-blue ch-title big hm">CPI Lorem Ipsum</p> -->
-			<div class="db article">
+			<div class="db">
 				<div class="accordion active">
 					<div class="head-acc">
 						<div class="h-title">CPI Lorem Ipsum <span class = "expand up"></span></div>

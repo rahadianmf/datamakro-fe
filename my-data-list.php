@@ -8,7 +8,7 @@
 		<br/>
 		<br/>
 		<div class="db tr">
-			<a href="" class="pre-header c-orange u db">Upgrade to Premium</a>
+			<a href="" class="pre-header c-orange u db utp">Upgrade to Premium</a>
 			<br/>
 		</div>
 		<div class="db table">

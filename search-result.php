@@ -51,7 +51,7 @@
 			</form>
 		</aside>
 		<article class = "two-column">
-			<h2 class="ch-title hm">9 Search Resuls for <i>"DataMakro"</i></h2>
+			<h2 class="ch-title hm srestitle">9 Search Resuls for <i>"DataMakro"</i></h2>
 			<div class="box bg-gray5">
 				<b class = "c-blue ch-title">Produk Domestik Bruto Atas Harga Konstan</b>
 			</div>
