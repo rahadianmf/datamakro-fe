@@ -2,10 +2,13 @@
 <section class = "banner" style = "background-image:url('img/content/banner-home.jpg'); background-size: cover;">
 	<div class="wrapper b-wrapper">
 		<h1>Trustworthy Indonesia economic database</h1>
-		<h4>Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie scelerisque malesuada. <br/>Nunc eget ante non urna vestibulum aliquet.</h4>
+		<h4>
+			Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+			scelerisque malesuada. <br/>Nunc eget ante non urna vestibulum aliquet.
+		</h4>
 		<div class="b-search cba pr">
-			<div class="drop">
-				<div class="fl button"><font>Publication</font> <span></span></div>
+			<div class="drop cba fl">
+				<div class="button"><font>Publication</font> <span></span></div>
 				<div class="list-cont pa">
 					<div class="list">Publication</div>
 					<div class="list">Publication 1</div>
@@ -37,6 +40,7 @@
 					<a class="db dhl-title" href="">Indeks Harga Konsumen</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -44,6 +48,7 @@
 					<a class="db dhl-title" href="">Indeks Harga Konsumen</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -51,6 +56,7 @@
 					<a class="db dhl-title" href="">Neraca Pembayaran</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -58,6 +64,7 @@
 					<a class="db dhl-title" href="">Indeks Harga Konsumen</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -65,6 +72,7 @@
 					<a class="db dhl-title" href="">Produk Domestik Bruto</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -72,6 +80,7 @@
 					<a class="db dhl-title" href="">Indeks Harga Konsumen</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="cb db"></div>
@@ -84,6 +93,7 @@
 					<a class="db dhl-title" href="">Neraca Pembayaran</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -91,6 +101,7 @@
 					<a class="db dhl-title" href="">Neraca Pembayaran</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -98,6 +109,7 @@
 					<a class="db dhl-title" href="">Indeks Harga Konsumen</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -105,6 +117,7 @@
 					<a class="db dhl-title" href="">Indeks Harga Konsumen</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="cb db"></div>
@@ -117,6 +130,7 @@
 					<a class="db dhl-title" href="">Indeks Harga Konsumen</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="dh-list">
@@ -124,6 +138,7 @@
 					<a class="db dhl-title" href="">Indeks Harga Konsumen</a>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisc elit. Nullam molestie 
+						scelerisque malesuada. Nunc eget ante non urna.
 					</p>
 				</div>
 				<div class="cb db"></div>

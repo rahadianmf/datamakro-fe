@@ -1,0 +1,26 @@
+.banner { padding: 190px 0px 106px;
+	h1 { font-size: 30px; line-height: 40px; padding: 0px 100px 20px; }
+	h4 { font-size: 20px; padding-bottom: 56px; color: #d8d8d8; line-height: 28px;
+		br { display: none; }
+	}
+	.b-search { width: 90%;
+		input { width: 67%; font-size: 20px; font-style: italic; color: #bbbaba; }
+		.drop { width: 33%; }
+	}
+	.b-wrapper { width: 85%; }
+	.bigsearch { left: 36%; }
+}
+.data-home {
+	.dh-list { width: 100%; display: block;
+		&:nth-child(even) { padding-left: 0px; border: none; }
+		&:nth-child(odd) { padding-right: 0px; }
+		.dhl-date { padding-bottom: 6px; }
+		.dhl-title { font-weight: bold; padding-bottom: 10px; }
+		p { padding-right: 0px; font-size: 20px; line-height: 29px; }
+	}
+}
+.filter-home {
+	.fh-list { float: none; display: block; margin-top: 15px; }
+	.fh-title { float: none; display: block; }
+}
+.wrapper , .wrapper.type-2 { width: 93%; }
