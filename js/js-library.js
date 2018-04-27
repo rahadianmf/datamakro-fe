@@ -98,3 +98,16 @@ function stayHeader() {
         }
     })
 }
+
+function showFilter() {
+    $("aside").addClass("active");
+    $("body, html").css("overflow-y","hidden");
+}
+function hideFilter() {
+    $("aside").removeClass("active");
+    $("body, html").css("overflow-y","auto");
+}
+function toggleFilter2() {
+    $(".filter2-container").slideToggle(400);
+    $(".filter2-container").toggleClass("active");
+}

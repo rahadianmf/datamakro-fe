@@ -5,7 +5,10 @@
 		<p class="pre-header c-gray3">
 			Datamakro provides broad series of macro and microeconomic data of Indonesia. Besides providing the data, Datamakro also disseminates wide score of research report to let the data speaks even further. Datamakro is very suitable for student, researcher, analyst, consultant, and policymaker who is seeking trustable data.
 		</p>
-		<div class="db">
+		<div class="container filter t2">
+			<a class="dib br2 pr btn bbbl aside" onclick="toggleFilter2();"><span class = "ico-filter"></span>Filters</a>
+		</div>
+		<div class="db filter2-container">
 			<div class="form-group fl relative">
 				<select class = "hb">
 					<option value="">Classification</option>
@@ -24,7 +27,7 @@
 				</select>
 				<span class = "arr-select"></span>
 			</div>
-			<div class="form-group fr relative">
+			<div class="form-group fr relative search-filter">
 				<input type ="text" class="search hb" placeholder = "Search all data talk..." />
 				<span class = "search-ico"></span>
 			</div>

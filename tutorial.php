@@ -116,7 +116,7 @@
 <script type="text/javascript">
 	$(window).load(function(){
 	    var maxHeight = 0, maxHeight2 = 0, ww = $(window).width();
-	    if(ww >= 768){
+	    if(ww >= 1024){
 	        $('.data-list-2 .list .link-title').each(function(){
 	           maxHeight = $(this).height() > maxHeight ? $(this).height() : maxHeight;
 	        });

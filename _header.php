@@ -52,7 +52,7 @@
                     <?php if($login == "yes"){ ?>
                         <div class="logged">
                             <span class = "dib login-ico"></span>
-                            Hi, Remmy
+                            <font>Hi, Remmy</font>
                             <span class = "dib arrow"></span>
                         </div>
                     <?php }else{ ?>

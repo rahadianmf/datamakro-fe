@@ -2,6 +2,7 @@
 <section class = "content">
 	<div class="wrapper">
 		<aside>
+			<div onclick="hideFilter();" class="close-aside"><span></span> Close</div>
 			<div class="cat">
 				<div class="head-cat"><span class = "plus-min"></span> National Account</div>
 				<div class="content-cat">
@@ -132,7 +133,9 @@
 			</div>		
 		</aside>
 		<article class = "two-column">
-			<!-- <p class="c-blue ch-title big hm">CPI Lorem Ipsum</p> -->
+			<div class="container filter">
+				<a class="dib br2 pr btn bbbl aside" onclick="showFilter();"><span class = "ico-filter"></span>Filters</a>
+			</div>
 			<div class="db">
 				<div class="accordion active">
 					<div class="head-acc">

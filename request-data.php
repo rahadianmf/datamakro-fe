@@ -46,7 +46,7 @@
 				<div class="form-group">
 					<img class = "captcha" src="img/material/captcha.png">
 				</div>
-				<br/><br/><br/><br/><br/><br/><br/>
+				<br class = "hm" /><br/><br class = "hm" /><br/><br class = "hm" /><br/><br class = "hm" />
 				<button class="db btn orange long">LOGIN</button>
 			</form>
 		</div>

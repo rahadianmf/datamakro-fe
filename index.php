@@ -150,7 +150,7 @@
 <?php include ('_footer.php'); ?>
 
 <script type="text/javascript">
-	$(window).rea(function(){
-
+	$(window).ready(function(){
+		stayHeader();
 	});
 </script>

@@ -1,5 +1,5 @@
 <?php $page = "active"; $header = "active"; $login = "yes"; include ('_header.php'); ?>
-<section class = "content c-standard">
+<section class = "content c-standard thankyou">
 	<div class="wrapper type-2 tc">
 		<p class="c-blue ch-title big hm">
 			Thank You For Submitting

@@ -2,6 +2,7 @@
 <section class = "content">
 	<div class="wrapper">
 		<aside>
+			<div onclick="hideFilter();" class="close-aside"><span></span> Close</div>
 			<form>
 				<b class = "c-blue">Frequencies</b>
 				<label class="side-filter">Quarterly
@@ -51,6 +52,9 @@
 			</form>
 		</aside>
 		<article class = "two-column">
+			<div class="container filter">
+				<a class="dib br2 pr btn bbbl aside" onclick="showFilter();"><span class = "ico-filter"></span>Filters</a>
+			</div>
 			<h2 class="ch-title hm srestitle">9 Search Resuls for <i>"DataMakro"</i></h2>
 			<div class="box bg-gray5">
 				<b class = "c-blue ch-title">Produk Domestik Bruto Atas Harga Konstan</b>

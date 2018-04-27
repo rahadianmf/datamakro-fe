@@ -200,8 +200,13 @@ table { width: 100%;
 	&.bbor { color: $orange; border: 1px solid $orange;
 		&:hover , &:active , &:focus { background-color: $orange; color: $white;}
 	}
+	&.bbbl { color: $black; border: 1px solid #acacac;
+		&:hover , &:active , &:focus { background-color: $gray2; color: $black;}
+	}
 	&.orange { background: $orange; color: $white; }
 	&.long { padding: 10px 130px; }
+	&.br2 { @include borderRadius(4px); }
+	&.aside { padding: 12px 25px 12px 50px; font-size: 20px; cursor: pointer; }
 }
 .c-blue { color: $blue; }
 .c-blue2 { color: $blue2; }
@@ -238,6 +243,12 @@ table { width: 100%;
 	&.big { font-size: 37px; line-height: 45px; }
 	&.big404 { font-size: 152px; line-height: 180px; }
 }
+.close-aside { cursor: pointer; margin: 0px 0px 15px; font-size: 16px; color: $black; position: relative; display: none; padding: 5px 27px;
+	span { width: 14px; height: 14px; position: absolute; left: 0; top: 5px; background: url('../img/material/close-aside.png'); background-size: 100%; }
+}
+.container { display: block;
+	&.filter { display: none; }	
+}
 .content { padding: 93px 0px 80px;
 	&.c-home { padding: 80px 0px; }
 	&.c-standard { padding: 156px 0px 93px; }
@@ -254,7 +265,7 @@ table { width: 100%;
 	}
 }
 .data-list { 
-	.list { padding: 30px 0px 10px; float: left; width: 30%; margin-right: 4%; 
+	.list { padding: 30px 0px 10px; float: left; width: 30%; margin-right: 5%; 
 		a { padding-top: 10px; display: block; font-size: 28px; line-height: 36px; font-weight: 600; padding-bottom: 15px; }
 		&:nth-child(3n) { margin-right: 0px;
 			&::after { content: ""; clear: both; display: block; }
@@ -316,6 +327,7 @@ table { width: 100%;
 .fwn { font-weight: normal; }
 .i { font-style: italic; }
 .ico-email { z-index: 1; width: 18px; height: 20px; position: absolute; top: 26px; left: 9px; background: url('../img/material/ico-email.png'); }
+.ico-filter { z-index: 1; width: 21px; height: 21px; position: absolute; top: 11px; left: 13px; background: url('../img/material/ico-filter.png'); background-size: 100%; }
 .ico-password { z-index: 1; width: 18px; height: 20px; position: absolute; top: 26px; left: 9px; background: url('../img/material/ico-password.png'); }
 .ico-socmed-fb { display: inline-block; position: relative; width: 28px; height: 28px; background: url('../img/material/ico-socmed-fb.png'); margin-right: 8px; top: 10px; }
 .ico-socmed-tw { display: inline-block; position: relative; width: 28px; height: 28px; background: url('../img/material/ico-socmed-tw.png'); margin-right: 8px; top: 10px; }
@@ -604,6 +616,10 @@ table { width: 100%;
 		}
 		.h-search {
 			input { width: 127px; }
+		}
+		.logged {
+			font { display: none; }
+			.arrow { margin-left: 0px; }
 		}
 	}
 }
