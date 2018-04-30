@@ -98,7 +98,11 @@ aside {
   aside.active {
     left: 0;
     opacity: 1;
-    width: 100%; }
+    width: 100%;
+    z-index: 4; }
+
+br.hm {
+  display: none; }
 
 input.big {
   width: 16px;
@@ -169,8 +173,6 @@ table tr td {
   padding: 40px 40px; }
   .box-subreq .form-group {
     width: 100%; }
-  .box-subreq br.hm {
-    display: none; }
 
 .ch-title.big, .search-list b.big {
   font-size: 30px;

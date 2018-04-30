@@ -21,7 +21,7 @@
     <script type="text/javascript" src="js/js-running.js"></script>
 </head>
 <body>
-    <header class = "<?php if($header == 'active'){ echo 'active'; } ?>">
+    <header class = "<?php if($header == 'active'){ echo 'active scrolled'; } ?>">
         <div class="wrapper">
             <div class="h-left fl">
                 <a href="index.php">
@@ -34,43 +34,42 @@
                 <div class="hamburger" onclick="toggleHamburger();">
                     <span></span>
                 </div>
-                <a class="login-mobile"></a>
+                <a data-id = "loginpopup" class="login-mobile popup-trigger"></a>
             </div>
             <div class="h-right fr tr">
-                <div class="mobile-bg-trans">
-                    <div class="dib h-menu">
-                        <nav>
-                            <ul>
-                                <li class="dib fl"><a class = "<?php if($page == 'data-tree'){ echo 'active'; } ?>" href="categories.php">Data Tree</a></li>
-                                <li class="dib fl"><a class = "<?php if($page == 'data-talk'){ echo 'active'; } ?>" href="data-talk.php">Data Talk</a></li>
-                                <li class="dib fl"><a class = "<?php if($page == 'about'){ echo 'active'; } ?>" href="about.php">About</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="dib h-search">
-                        <form action="search-result.php" method="post">
-                            <span></span>
-                            <input placeholder = "Search here..." name="" type="text" />
-                            <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"
-                            tabindex="-1" />
-                        </form>
-                    </div>
-                    <div class="dib tr h-login">
-                        <?php if($login == "yes"){ ?>
-                            <div class="logged">
-                                <span class = "dib login-ico"></span>
-                                <font>Hi, Remmy</font>
-                                <span class = "dib arrow"></span>
-                            </div>
-                        <?php }else{ ?>
-                            <a data-id = "loginpopup" class = "btn f-login popup-trigger" href="">LOG IN</a>
-                        <?php } ?>
-                    </div>
+                <div class="dib h-menu">
+                    <nav>
+                        <ul>
+                            <li class="dib fl"><a class = "<?php if($page == 'data-tree'){ echo 'active'; } ?>" href="categories.php">Data Tree</a></li>
+                            <li class="dib fl"><a class = "<?php if($page == 'data-talk'){ echo 'active'; } ?>" href="data-talk.php">Data Talk</a></li>
+                            <li class="dib fl"><a class = "<?php if($page == 'about'){ echo 'active'; } ?>" href="about.php">About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="dib h-search">
+                    <form action="search-result.php" method="post">
+                        <span></span>
+                        <input placeholder = "Search here..." name="" type="text" />
+                        <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"
+                        tabindex="-1" />
+                    </form>
+                </div>
+                <div class="dib tr h-login">
+                    <?php if($login == "yes"){ ?>
+                        <div class="logged">
+                            <span class = "dib login-ico"></span>
+                            <font>Hi, Remmy</font>
+                            <span class = "dib arrow"></span>
+                        </div>
+                    <?php }else{ ?>
+                        <a data-id = "loginpopup" class = "btn f-login popup-trigger" href="">LOG IN</a>
+                    <?php } ?>
                 </div>
             </div>
             <div class="cb"></div>
         </div>
     </header>
+    <div class="bg-trans-mobile"></div>
     <section id = "loginpopup" class = "popup type2">
         <div class="wrapper type-popup">
             <div class="pop-content">

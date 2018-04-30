@@ -1,6 +1,6 @@
 <?php $page = "active"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content">
-	<div class="wrapper">
+	<div class="wrapper np-wrapper">
 		<aside>
 			<div onclick="hideFilter();" class="close-aside"><span></span> Close</div>
 			<form>

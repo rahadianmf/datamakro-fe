@@ -44,7 +44,7 @@ header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0p
 				}
 			}
 		}
-		.login-mobile { float: right; width: 25px; height: 25px; background: url('../img/material/login-icon.png'); margin-right: 13px; position: relative; top: 3px; }
+		.login-mobile { float: right; width: 25px; height: 25px; background: url('../img/material/login-mobile.png'); margin-right: 13px; position: relative; top: 3px; }
 	}
 	.h-logo { @extend .fl; padding-top: 4px;
 		img { height: 31px; }
@@ -196,6 +196,7 @@ table { width: 100%;
 .bg-gray3 { background-color: $gray3; }
 .bg-gray4 { background-color: $gray4; }
 .bg-gray5 { background-color: $gray5; }
+.bg-trans-mobile { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 3; }
 .box { padding: 15px 20px; position: relative;
 	&.hbb { border-bottom: 1px solid $gray4; }
 }
@@ -259,6 +260,7 @@ table { width: 100%;
 	&.big { font-size: 37px; line-height: 45px; }
 	&.big404 { font-size: 152px; line-height: 180px; }
 }
+.chart { height: 400px; }
 .close-aside { cursor: pointer; margin: 0px 0px 15px; font-size: 16px; color: $black; position: relative; display: none; padding: 5px 27px;
 	span { width: 14px; height: 14px; position: absolute; left: 0; top: 5px; background: url('../img/material/close-aside.png'); background-size: 100%; }
 }

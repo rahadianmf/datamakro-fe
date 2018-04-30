@@ -3,7 +3,7 @@
 	<div class="wrapper type-2">
 		<h1 class="c-blue ch-title big hm fwn">Produk Domestik Bruto</h1>
 		<br/>
-		<br/>
+		<br class = "hm" />
 		<a class="dw" href=""><span></span> Download File</a>
 		<div class= "line-dashed"></div>
 		<div class="box-desc">
@@ -37,9 +37,9 @@
 		</div>
 		<br/>
 		<div class="db">
-			<div id="chart" style="width: 100%; height: 400px; margin: 0 auto"></div>
+			<div class="chart" id="chart" style="width: 100%; margin: 0 auto"></div>
 		</div>
-		<div class="article db c-gray3">
+		<div class="article db c-gray3 chart-mobile">
 			<p>
 				Pertumbuhan ekonomi Q2-17 tumbuh 5.01% YoY, stabil dari kuartal sebelumnya. Investasi yang tumbuh lebih cepat 5.35% YoY di Q2-17 dari 4.78% YoY Q1-17 menjadi penopang pertumbuhan secara keseluruhan. Untuk faktor penghambat, kontribusi ekspor netto turun dan belanja pemerintah tumbuh negatif. Pertumbuhan konsumsi rumah tangga stabil di 4.95% YoY.
 			</p>
