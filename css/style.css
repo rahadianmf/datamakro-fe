@@ -173,6 +173,67 @@ header {
     width: 30%; }
   header .h-right {
     width: 70%; }
+  header .h-right-mobile {
+    display: none; }
+    header .h-right-mobile .hamburger {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      background: transparent;
+      float: right;
+      position: relative; }
+      header .h-right-mobile .hamburger span {
+        transition: all 0.2s ease-out;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -ms-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out;
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        position: relative;
+        top: 13px; }
+        header .h-right-mobile .hamburger span::before, header .h-right-mobile .hamburger span::after {
+          transition: all 0.2s ease-out;
+          -webkit-transition: all 0.2s ease-out;
+          -moz-transition: all 0.2s ease-out;
+          -ms-transition: all 0.2s ease-out;
+          -o-transition: all 0.2s ease-out;
+          position: absolute;
+          content: "";
+          display: block;
+          width: 30px;
+          height: 3px;
+          background: #ffffff; }
+        header .h-right-mobile .hamburger span::after {
+          top: -8px; }
+        header .h-right-mobile .hamburger span::before {
+          top: 8px; }
+      header .h-right-mobile .hamburger.active span {
+        background: transparent; }
+        header .h-right-mobile .hamburger.active span::after {
+          -ms-transform: rotate(-45deg);
+          /* IE 9 */
+          -webkit-transform: rotate(-45deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(-45deg);
+          top: 1px; }
+        header .h-right-mobile .hamburger.active span::before {
+          -ms-transform: rotate(45deg);
+          /* IE 9 */
+          -webkit-transform: rotate(45deg);
+          /* Chrome, Safari, Opera */
+          transform: rotate(45deg);
+          top: 1px; }
+    header .h-right-mobile .login-mobile {
+      float: right;
+      width: 25px;
+      height: 25px;
+      background: url("../img/material/login-icon.png");
+      margin-right: 13px;
+      position: relative;
+      top: 3px; }
   header .h-logo {
     padding-top: 4px; }
     header .h-logo img {
@@ -1072,6 +1133,19 @@ table {
         display: none; }
     .filter-home .fh-list li:hover a, .filter-home .fh-list li.active a {
       opacity: 1; }
+  .filter-home .fh-list-mobile {
+    display: none;
+    margin: 15px 0px;
+    position: relative; }
+    .filter-home .fh-list-mobile select {
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      width: 100%;
+      color: #a6a6a6;
+      border-color: #acacac !important; }
   .filter-home .fh-title {
     font-size: 30px; }
 
@@ -1675,6 +1749,88 @@ table {
   transform: rotate(45deg); }
 
 /*Media Queries*/
+@media screen and (max-width: 767px) {
+  header {
+    z-index: 3 !important; }
+    header .h-logo img {
+      height: 20px; }
+    header .h-left {
+      width: 50%; }
+    header .h-login {
+      display: none; }
+    header .h-menu, header .h-search {
+      display: block !important; }
+    header .h-menu {
+      top: 0px !important; }
+      header .h-menu li {
+        text-align: left;
+        display: block !important;
+        float: none;
+        width: 100%;
+        border-bottom: 1px solid #e2e2e2;
+        padding: 18px 5%; }
+        header .h-menu li a {
+          padding: 0px 0px;
+          color: #0b457d;
+          font-size: 16px;
+          font-weight: 500; }
+    header .h-right {
+      display: none;
+      transition: all 0.2s ease-out;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out; }
+      header .h-right.active {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        padding: 0px 0px;
+        top: 84px;
+        background: #fff;
+        height: 88vh; }
+    header .h-right-mobile {
+      display: inline-block;
+      width: 50%; }
+    header .h-search {
+      margin-top: 130px;
+      padding-bottom: 30px; }
+      header .h-search input {
+        width: 100%;
+        padding-left: 25px;
+        border-bottom: 1px solid #dddddd; }
+      header .h-search span {
+        background: url(../img/material/search-mobile.png) !important;
+        top: 14px !important; }
+
+  .banner {
+    padding: 130px 0px 70px !important; }
+    .banner h1 {
+      padding: 0px 0px 10px !important;
+      font-size: 28px !important;
+      line-height: 38px !important; }
+    .banner h4 {
+      font-size: 18px !important;
+      line-height: 24px !important;
+      padding-bottom: 0px !important; }
+    .banner .b-search {
+      display: none; }
+
+  .content.c-home {
+    padding: 50px 0px; }
+
+  .data-home .dh-list p {
+    font-size: 18px !important;
+    line-height: 26px !important; }
+
+  .filter-home .fh-list {
+    display: none !important; }
+  .filter-home .fh-list-mobile {
+    display: block; }
+
+  .wrapper, .wrapper.type-2 {
+    width: 89% !important; } }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   header {
     padding: 30px 0px; }

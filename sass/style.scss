@@ -30,6 +30,22 @@ header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0p
 	&.active { @extend .pf; }
 	.h-left { width: 30%; }
 	.h-right { width: 70%; }
+	.h-right-mobile { display: none; 
+		.hamburger { cursor: pointer; width: 30px; height: 30px; background: transparent; float: right; position: relative; 
+			span { @include transition(all .2s ease-out); display: block; width: 30px; height: 3px; background: #fff; position: relative; top: 13px;
+				&::before , &::after { @include transition(all .2s ease-out); position: absolute; content: ""; display: block; width: 30px; height: 3px; background: $white; }
+				&::after { top: -8px; }
+				&::before { top: 8px; }
+			}
+			&.active {
+				span { background: transparent;
+					&::after { @include rotate(-45deg); top: 1px; }
+					&::before { @include rotate(45deg); top: 1px; }
+				}
+			}
+		}
+		.login-mobile { float: right; width: 25px; height: 25px; background: url('../img/material/login-icon.png'); margin-right: 13px; position: relative; top: 3px; }
+	}
 	.h-logo { @extend .fl; padding-top: 4px;
 		img { height: 31px; }
 	}
@@ -310,6 +326,9 @@ table { width: 100%;
 				a { opacity: 1; }
 			}
 		}
+	}
+	.fh-list-mobile { display: none; margin: 15px 0px; position: relative;
+		select { @include borderRadius(4px); width: 100%; color: #a6a6a6; border-color: #acacac !important; }
 	}
 	.fh-title { font-size: 30px; }
 }
@@ -598,7 +617,7 @@ table { width: 100%;
 
 /*Media Queries*/
 @media screen and (max-width:767px) {
-
+	@import 'style320';
 }
 @media screen and (min-width:768px) and (max-width: 1023px) {
 	header { padding: 30px 0px;

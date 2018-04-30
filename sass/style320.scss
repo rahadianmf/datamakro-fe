@@ -1,0 +1,39 @@
+header { z-index: 3 !important;
+	.h-logo {
+		img { height: 20px; }
+	}
+	.h-left { width: 50%; }
+	.h-login { display: none; }
+	.h-menu , .h-search { display: block !important; }
+	.h-menu { top: 0px !important; 
+		li { text-align: left; display: block !important; float: none; width: 100%; border-bottom: 1px solid #e2e2e2; padding: 18px 5%; 
+			a { padding: 0px 0px; color: #0b457d; font-size: 16px; font-weight: 500; }
+		}
+	}
+	.h-right { display: none; @include transition(all .2s ease-out);
+		&.active { display: block; position: absolute; width: 100%; left: 0%; padding: 0px 0px; top: 84px; background: #fff; height: 88vh; }
+	}
+	.h-right-mobile { display: inline-block; width: 50%; }
+	.h-search { margin-top: 130px; padding-bottom: 30px;
+		input { width: 100%; padding-left: 25px; border-bottom: 1px solid #dddddd; }
+		span { background: url(../img/material/search-mobile.png) !important; top: 14px !important; }
+	}
+}
+.banner { padding: 130px 0px 70px !important; 
+	h1 { padding: 0px 0px 10px !important; font-size: 28px !important; line-height: 38px !important; }
+	h4 { font-size: 18px !important; line-height: 24px !important; padding-bottom: 0px !important; }
+	.b-search { display: none; }
+}
+.content {
+	&.c-home { padding: 50px 0px; }
+}
+.data-home {
+	.dh-list {
+		p { font-size: 18px !important; line-height: 26px !important; }
+	}
+}
+.filter-home {
+	.fh-list { display: none !important; }
+	.fh-list-mobile { display: block; }
+}
+.wrapper, .wrapper.type-2 { width: 89% !important; }

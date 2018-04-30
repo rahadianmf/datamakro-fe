@@ -111,3 +111,7 @@ function toggleFilter2() {
     $(".filter2-container").slideToggle(400);
     $(".filter2-container").toggleClass("active");
 }
+function toggleHamburger() {
+    $(".hamburger").toggleClass("active");
+    $(".h-right").toggleClass("active");
+}

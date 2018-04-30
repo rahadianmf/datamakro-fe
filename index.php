@@ -31,6 +31,16 @@
 					<li data-id = "recent-search" data-title = "The Recent Search" class="fl tab-trigger"><a href = ""><span class = "fhl fhl-3"></span> Recent Search </a></li>
 				</ul>
 			</div>
+			<div class="fh-list-mobile">
+				<div class="relative">
+					<select>
+						<option data-id = "latest-data" data-title = "The Latest Data" class = "tab-trigger">Latest Data</option>
+						<option data-id = "top-search" data-title = "The Top Search" class = "tab-trigger">Top Search</option>
+						<option data-id = "recent-search" data-title = "The Recent Search" class = "tab-trigger">Recent Search</option>
+					</select>
+					<span class = "arr-select"></span>
+				</div>
+			</div>
 			<div class="db cb"></div>
 		</div>
 		<div id = "latest-data" class="tabhome active">

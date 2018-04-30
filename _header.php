@@ -30,34 +30,42 @@
                     </div>
                 </a>
             </div>
+            <div class="h-right-mobile">
+                <div class="hamburger" onclick="toggleHamburger();">
+                    <span></span>
+                </div>
+                <a class="login-mobile"></a>
+            </div>
             <div class="h-right fr tr">
-                <div class="dib h-menu">
-                    <nav>
-                        <ul>
-                            <li class="dib fl"><a class = "<?php if($page == 'data-tree'){ echo 'active'; } ?>" href="categories.php">Data Tree</a></li>
-                            <li class="dib fl"><a class = "<?php if($page == 'data-talk'){ echo 'active'; } ?>" href="data-talk.php">Data Talk</a></li>
-                            <li class="dib fl"><a class = "<?php if($page == 'about'){ echo 'active'; } ?>" href="about.php">About</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="dib h-search">
-                    <form action="search-result.php" method="post">
-                        <span></span>
-                        <input placeholder = "Search here..." name="" type="text" />
-                        <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"
-                        tabindex="-1" />
-                    </form>
-                </div>
-                <div class="dib tr">
-                    <?php if($login == "yes"){ ?>
-                        <div class="logged">
-                            <span class = "dib login-ico"></span>
-                            <font>Hi, Remmy</font>
-                            <span class = "dib arrow"></span>
-                        </div>
-                    <?php }else{ ?>
-                        <a data-id = "loginpopup" class = "btn f-login popup-trigger" href="">LOG IN</a>
-                    <?php } ?>
+                <div class="mobile-bg-trans">
+                    <div class="dib h-menu">
+                        <nav>
+                            <ul>
+                                <li class="dib fl"><a class = "<?php if($page == 'data-tree'){ echo 'active'; } ?>" href="categories.php">Data Tree</a></li>
+                                <li class="dib fl"><a class = "<?php if($page == 'data-talk'){ echo 'active'; } ?>" href="data-talk.php">Data Talk</a></li>
+                                <li class="dib fl"><a class = "<?php if($page == 'about'){ echo 'active'; } ?>" href="about.php">About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="dib h-search">
+                        <form action="search-result.php" method="post">
+                            <span></span>
+                            <input placeholder = "Search here..." name="" type="text" />
+                            <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"
+                            tabindex="-1" />
+                        </form>
+                    </div>
+                    <div class="dib tr h-login">
+                        <?php if($login == "yes"){ ?>
+                            <div class="logged">
+                                <span class = "dib login-ico"></span>
+                                <font>Hi, Remmy</font>
+                                <span class = "dib arrow"></span>
+                            </div>
+                        <?php }else{ ?>
+                            <a data-id = "loginpopup" class = "btn f-login popup-trigger" href="">LOG IN</a>
+                        <?php } ?>
+                    </div>
                 </div>
             </div>
             <div class="cb"></div>
