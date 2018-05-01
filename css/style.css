@@ -1928,6 +1928,48 @@ table {
     font-size: 15px;
     padding: 8px 50px 8px 15px; }
 
+  .about-list .list {
+    padding: 30px 0px 10px;
+    float: none;
+    width: 100%;
+    margin-right: 0%; }
+    .about-list .list p.desc {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 15px;
+      line-height: 22px; }
+    .about-list .list .img-container {
+      max-width: 250px;
+      margin: 0 auto; }
+
+  .accordion .head-acc .h-title {
+    font-size: 24px !important; }
+
+  .auth-container .side-left, .auth-container .side-right {
+    float: none;
+    width: 100%; }
+  .auth-container .side-left {
+    min-height: auto; }
+    .auth-container .side-left .centerize {
+      position: relative;
+      padding: 40px 20px;
+      top: 0px;
+      left: 0px !important;
+      right: 0px !important;
+      -ms-transform: translateY(0%);
+      /* IE 9 */
+      -webkit-transform: translateY(0%);
+      /* Chrome, Safari, Opera */
+      transform: translateY(0%); }
+    .auth-container .side-left .forgot {
+      width: 45%; }
+      .auth-container .side-left .forgot a {
+        font-size: 13px; }
+    .auth-container .side-left .remember {
+      width: 55%; }
+  .auth-container .side-right {
+    display: none; }
+
   .banner {
     padding: 130px 0px 70px !important; }
     .banner h1 {
@@ -1947,6 +1989,10 @@ table {
     padding: 10px 0px 3px 0px !important; }
     .box-desc .list img, .re-search .list img {
       width: 100%; }
+
+  .cat .content-cat {
+    width: 100%;
+    overflow: scroll; }
 
   .ch-title.big, .search-list b.big, .search-list b.big {
     font-size: 26px !important;
@@ -2004,6 +2050,15 @@ table {
       .pagination ul li:first-child {
         padding-left: 0px; }
 
+  .play {
+    width: 70px;
+    height: 70px;
+    background-size: 100% !important; }
+
+  .pre-header {
+    font-size: 16px;
+    line-height: 24px; }
+
   .re-search {
     padding-top: 10px !important; }
     .re-search .list {
@@ -2044,12 +2099,19 @@ table {
       /* Chrome, Safari, Opera */
       transform: translateY(-47% !important); }
 
+  .video-container {
+    margin: 30px 0px 0px; }
+
   .wrapper, .wrapper.type-2 {
     width: 89% !important; }
 
   .wrapper.np-wrapper {
     width: 100% !important; }
     .wrapper.np-wrapper .filter, .wrapper.np-wrapper .srestitle {
+      padding: 0px 5.5%; }
+  .wrapper.w-about-mobile {
+    width: 100% !important; }
+    .wrapper.w-about-mobile h1, .wrapper.w-about-mobile p, .wrapper.w-about-mobile .about-list {
       padding: 0px 5.5%; } }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   header {

@@ -39,6 +39,28 @@ input {
 	&.search { font-size: 15px; padding: 8px 50px 8px 15px; }
 }
 select { font-size: 15px; padding: 8px 50px 8px 15px; }
+.about-list {
+	.list { padding: 30px 0px 10px; float: none; width: 100%; margin-right: 0%; 
+		p.desc { text-align: center; padding-top: 20px; font-size: 15px; line-height: 22px; }
+		.img-container { max-width: 250px; margin: 0 auto; }
+	}
+}
+.accordion {
+	.head-acc {
+		.h-title { font-size: 24px !important; }
+	}
+}
+.auth-container {
+	.side-left , .side-right { float: none; width: 100%; }
+	.side-left { min-height: auto; 
+		.centerize { position: relative; padding: 40px 20px; top: 0px; left: 0px !important; right: 0px !important; @include transform(translateY(0%)); }
+		.forgot { width: 45%;
+			a { font-size: 13px; } 
+		}
+		.remember { width: 55%; }
+	}
+	.side-right { display: none; }
+}
 .banner { padding: 130px 0px 70px !important; 
 	h1 { padding: 0px 0px 10px !important; font-size: 28px !important; line-height: 38px !important; }
 	h4 { font-size: 18px !important; line-height: 24px !important; padding-bottom: 0px !important; }
@@ -48,6 +70,9 @@ select { font-size: 15px; padding: 8px 50px 8px 15px; }
 	.list { float: none; width: 100%; padding: 10px 0px 3px 0px !important; 
 		img { width: 100%; }
 	}
+}
+.cat {
+	.content-cat { width: 100%; overflow: scroll; }
 }
 .ch-title.big, .search-list b.big { font-size: 26px !important; line-height: 36px !important; }
 .chart { height: 350px; }
@@ -84,6 +109,8 @@ select { font-size: 15px; padding: 8px 50px 8px 15px; }
 		}
 	}
 }
+.play { width: 70px; height: 70px; background-size: 100% !important; } 
+.pre-header { font-size: 16px; line-height: 24px; }
 .re-search { padding-top: 10px !important;
 	.list { margin-bottom: 20px;
 		img { margin-bottom: 8px; }
@@ -98,9 +125,13 @@ select { font-size: 15px; padding: 8px 50px 8px 15px; }
 .search-filter { margin-top: 20px;
 	.search-ico { top: 47% !important; @include transform(translateY(-47% !important)); }
 }
+.video-container { margin: 30px 0px 0px; }
 .wrapper, .wrapper.type-2 { width: 89% !important; }
 .wrapper {
 	&.np-wrapper { width: 100% !important; 
 		.filter , .srestitle { padding: 0px 5.5%; }
 	}  
+	&.w-about-mobile { width: 100% !important; 
+		h1 , p , .about-list { padding: 0px 5.5%; }
+	}
 }

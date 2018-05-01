@@ -1,6 +1,6 @@
 <?php $page = "about"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
-	<div class="wrapper type-2">
+	<div class="wrapper type-2 w-about-mobile">
 		<h1 class="c-blue ch-title big hm fwn">About Datamakro</h1>
 		<p class="pre-header">
 			Datamakro provides broad series of macro and microeconomic data of Indonesia. Besides providing the data, Datamakro also disseminates wide score of research report to let the data speaks even further. Datamakro is very suitable for student, researcher, analyst, consultant, and policymaker who is seeking trustable data.

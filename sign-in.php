@@ -1,6 +1,6 @@
 <?php $page = "active"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
-	<div class="wrapper type-2">
+	<div class="wrapper type-2 np-wrapper">
 		<div class="auth-container">
 			<div class="side-left">
 				<div class="centerize">
