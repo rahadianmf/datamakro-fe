@@ -1942,6 +1942,25 @@ table {
       max-width: 250px;
       margin: 0 auto; }
 
+  table tr th {
+    display: none; }
+  table tr td {
+    display: block;
+    border-right: 0px solid #bbbaba;
+    padding: 15px 15px 0px; }
+    table tr td:first-child {
+      border-left: 0px solid #bbbaba; }
+    table tr td:last-child {
+      padding-bottom: 20px !important; }
+    table tr td::before {
+      content: attr(data-title);
+      display: block;
+      width: 100%;
+      font-size: 15px;
+      font-weight: bold; }
+  table tr:last-child td {
+    border-bottom: 0px solid #bbbaba; }
+
   .accordion .head-acc .h-title {
     font-size: 24px !important; }
 
@@ -1990,9 +2009,20 @@ table {
     .box-desc .list img, .re-search .list img {
       width: 100%; }
 
+  .box-subreq {
+    padding: 0px 0px !important;
+    border: none; }
+    .box-subreq .ch-title, .box-subreq .search-list b, .search-list .box-subreq b {
+      margin-bottom: 15px; }
+
+  .btn.long {
+    padding: 10px 100px !important;
+    margin: 0 auto !important; }
+
   .cat .content-cat {
     width: 100%;
-    overflow: scroll; }
+    overflow: scroll;
+    padding: 0px 0px 0px 25px !important; }
 
   .ch-title.big, .search-list b.big, .search-list b.big {
     font-size: 26px !important;
@@ -2008,6 +2038,19 @@ table {
     padding: 50px 0px; }
   .content.c-standard {
     padding: 130px 0px 60px; }
+  .content.thankyou .ch-title.big, .content.thankyou .search-list b.big, .search-list .content.thankyou b.big {
+    font-size: 32px !important;
+    line-height: 40px !important;
+    margin-bottom: 0px !important; }
+  .content.thankyou .ch-title.fwn, .content.thankyou .search-list b.fwn, .search-list .content.thankyou b.fwn, .content.thankyou .search-list b.fwn, .content.thankyou .search-list b.fwn {
+    font-size: 16px !important;
+    line-height: 24px !important; }
+  .content.notfound .ch-title.fwn, .content.notfound .search-list b.fwn, .search-list .content.notfound b.fwn, .content.notfound .search-list b.fwn, .content.notfound .search-list b.fwn {
+    font-size: 16px !important;
+    line-height: 24px !important; }
+  .content.notfound .ch-title.big404, .content.notfound .search-list b.big404, .search-list .content.notfound b.big404, .content.notfound .search-list b.big404 {
+    font-size: 90px !important;
+    line-height: 70px !important; }
 
   .data-home .dh-list p {
     font-size: 18px !important;
@@ -2021,6 +2064,15 @@ table {
     .data-list .list a {
       padding-bottom: 0px;
       margin-bottom: 8px; }
+
+  .data-list-2 .list img {
+    float: none !important;
+    width: 100% !important;
+    display: block; }
+  .data-list-2 .list .link-title {
+    display: block !important;
+    padding-left: 0% !important;
+    padding-top: 25px; }
 
   .dw {
     font-size: 17px; }
@@ -2055,9 +2107,29 @@ table {
     height: 70px;
     background-size: 100% !important; }
 
+  .popup .wrapper {
+    width: 100% !important;
+    max-width: 480px; }
+  .popup.type2 .pop-content .side-left {
+    width: 100%;
+    float: none;
+    padding: 45px 20px;
+    position: relative; }
+  .popup.type2 .pop-content .side-right {
+    display: none !important; }
+  .popup .pop-content {
+    position: relative;
+    padding: 65px 25px; }
+    .popup .pop-content .form-group {
+      margin-right: 0px !important; }
+    .popup .pop-content form.three-quarter {
+      width: 100% !important; }
+  .popup .pop-close::before, .popup .pop-close::after {
+    left: 9px; }
+
   .pre-header {
     font-size: 16px;
-    line-height: 24px; }
+    line-height: 26px; }
 
   .re-search {
     padding-top: 10px !important; }
@@ -2112,6 +2184,10 @@ table {
   .wrapper.w-about-mobile {
     width: 100% !important; }
     .wrapper.w-about-mobile h1, .wrapper.w-about-mobile p, .wrapper.w-about-mobile .about-list {
+      padding: 0px 5.5%; }
+  .wrapper.w-mdl-mobile {
+    width: 100% !important; }
+    .wrapper.w-mdl-mobile p, .wrapper.w-mdl-mobile .pre-header {
       padding: 0px 5.5%; } }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   header {

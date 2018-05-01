@@ -1,6 +1,6 @@
 <?php $page = "active"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
-	<div class="wrapper type-2">
+	<div class="wrapper type-2 w-mdl-mobile">
 		<p class="c-blue ch-title big hm">My Data List</p>
 		<div class="pre-header c-grey3 fwn">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis enim ut ipsum lobortis laoreet. Nullam eget enim dapibus, aliquet urna eget, viverra metus. In iaculis ligula id justo viverra volutpat. Aenean pellentesque elit ut velit dictum lacinia. Sed auctor suscipit dapibus
@@ -18,167 +18,155 @@
 						<th>Series</th>
 						<th>Unit</th>
 						<th>Source</th>
-						<th>Star Observation Date</th>
 						<th>Start Observation Date</th>
+						<th>End Observation Date</th>
 						<th>Publish Date</th>
 					</tr>
 				</thead>
 				<thead>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 					<tr>
-						<td>
+						<td data-title = "Series">
 						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
 						</td>
-						<td>1</td>
-						<td>
+						<td data-title = "Unit">1</td>
+						<td data-title = "Source">
 							Lorem ipsum dolor sit amet, consectetur 
 						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-					</tr>
-					<tr>
-						<td>
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
-						</td>
-						<td>1</td>
-						<td>
-							Lorem ipsum dolor sit amet, consectetur 
-						</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
-						<td>14 February 2018</td>
+						<td data-title = "Start Observation Date">14 February 2018</td>
+						<td data-title = "End Observation Date">14 February 2018</td>
+						<td data-title = "Publish Date">14 February 2018</td>
 					</tr>
 				</thead>
 			</table>

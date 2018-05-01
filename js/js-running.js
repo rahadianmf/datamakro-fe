@@ -15,4 +15,5 @@ $(window).on("load",function() {
 	accordion();
 	bSearchSpan();
 	tabHome();
+	tabHomeMobile();
 });

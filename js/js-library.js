@@ -89,6 +89,16 @@ function tabHome(){
     });
 }
 
+function tabHomeMobile(){
+    $(".tabmobile-select").change(function(){
+        var title = $(this).val();
+        var id = $(this).find(':selected').data('id')
+        $(".tabtitle").html(title);
+        $(".tabhome").removeClass("active");
+        $("#"+id+"").addClass("active");
+    });
+}
+
 function stayHeader() {
     $(window).scroll(function () {
         if ($(window).scrollTop() > $("header").outerHeight()) {

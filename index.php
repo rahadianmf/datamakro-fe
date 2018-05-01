@@ -33,10 +33,10 @@
 			</div>
 			<div class="fh-list-mobile">
 				<div class="relative">
-					<select>
-						<option data-id = "latest-data" data-title = "The Latest Data" class = "tab-trigger">Latest Data</option>
-						<option data-id = "top-search" data-title = "The Top Search" class = "tab-trigger">Top Search</option>
-						<option data-id = "recent-search" data-title = "The Recent Search" class = "tab-trigger">Recent Search</option>
+					<select class="tabmobile-select">
+						<option data-id = "latest-data" value = "The Latest Data" class = "tab-trigger">Latest Data</option>
+						<option data-id = "top-search" value = "The Top Search" class = "tab-trigger">Top Search</option>
+						<option data-id = "recent-search" value = "The Recent Search" class = "tab-trigger">Recent Search</option>
 					</select>
 					<span class = "arr-select"></span>
 				</div>
