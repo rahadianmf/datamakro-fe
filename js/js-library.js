@@ -140,3 +140,19 @@ function toggleHamburger() {
         $("header").addClass("active"); 
     }
 }
+function toggleaside() {
+    $(".toggleaside b").click(function(){
+       $(this).parent().toggleClass("active"); 
+    });
+}
+function bborToggle() {
+    $("a.bbor").click(function(e){
+        e.preventDefault();
+        $(this).toggleClass("active");
+    });
+}
+function hLoginToggle() {
+    $(".logged").click(function(){
+        $(".logged-content").slideToggle(150);
+    });
+}

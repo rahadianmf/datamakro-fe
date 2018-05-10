@@ -10,16 +10,21 @@ article { width: 925px; padding-left: 30px; }
 button, input { font-family: calibri, sans-serif; }
 footer { background: $gray2; padding: 40px 0px; 
 	.f-copy { color: $gray; font-size: 14px; }
-	.f-menu { margin-bottom: 12px;
-		a { color: $gray; padding-right: 15px; padding-left: 15px; font-size: 18px; line-height: 18px; border-right: 1px solid $gray; 
+	.f-menu { margin-bottom: 12px; margin-top: 14px;
+		a { color: $gray; padding-right: 15px; padding-left: 15px; font-size: 18px; line-height: 18px; position: relative;
 			&:first-child { padding-left: 0px; }
 			&:last-child { padding-right: 0px; border-right: none; }
+			&::after { content: ""; position: absolute; width: 1px; right: 0px; top: 8px; height: 14px; background: $gray;  }
 		}
 	}
-	.f-socmed { margin-bottom: 10px; }
+	.f-socmed { margin-bottom: 10px; 
+		a { display: inline-block; 
+			&::after { content: ""; display: block; clear: both; }
+		}
+	}
 	.right {
 		p { color: $gray; font-size: 16px; text-transform: uppercase; padding-bottom: 8px; margin-bottom: 0px; }
-		input { @include appearance(none); border:none; color: $gray; background: $white; padding: 12px 8px; font-size: 16px; width: 220px; @include borderRadius(7px); }
+		input { font-style: italic; @include appearance(none); border:none; color: $gray; background: $white; padding: 10px 8px; font-size: 18px; width: 220px; @include borderRadius(7px); }
 		button { @include appearance(none); border: none; background: $orange; color: $white; font-size: 16px; padding: 12px 21px; @include borderRadius(7px); }
 	}
 }
@@ -46,8 +51,8 @@ header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0p
 		}
 		.login-mobile { float: right; width: 25px; height: 25px; background: url('../img/material/login-mobile.png'); margin-right: 13px; position: relative; top: 3px; }
 	}
-	.h-logo { @extend .fl; padding-top: 4px;
-		img { height: 31px; }
+	.h-logo { @extend .fl; padding-top: 9px;
+		img { height: 24px; }
 	}
 	.h-menu { position: relative; top: 6px;
 		a { font-size: 18px; color: $white; padding: 15px 23px 15px 10px; @include transition(all .2s ease-out); 
@@ -60,24 +65,31 @@ header { @extend .pa; top: 0; left: 0; right: 0; color: $white; padding: 25px 0p
 		}
 	}
 	.h-search { @extend .pr; opacity: 0.5; @include transition(all .15s ease-out); padding: 0px 15px;
-		span { top: 10px; background: url('../img/material/search.png'); width: 15px; height: 15px; @extend .pa; }
-		input { padding-left: 30px; font-size: 18px; width: 188px; height: 43px; color: $white; @include appearance(none); background: transparent; border:none; border-bottom: 1px solid $white; 
+		span { top: 14px; background: url('../img/material/search.png'); width: 15px; height: 15px; @extend .pa; }
+		input { @include transition(all .2s ease-out); padding-left: 30px; font-size: 18px; width: 188px; height: 43px; color: $white; @include appearance(none); background: transparent; border:none; border-bottom: 1px solid rgba(255,255,255,0.5); 
+			&::placeholder { color: rgba(255,255,255,0.5); }
+			&:focus { border-bottom: 1px solid rgba(255,255,255,1); 
+				&::placeholder { color: rgba(255,255,255,1); }
+			}
 		}
 		&:hover , &:click , &:active , &:visited , &:focus { opacity: 1; }
 	}
-	.f-login { border: 1px solid $orange; padding: 16px 21px; color: $orange; }
+	.f-login { @include borderRadius(4px); border: 2px solid $orange; padding: 9px 38px; color: $orange; }
 	&.active { position: fixed; background: $blue2; }
 }
 html, body { font-size: 16px; font-family: Hind, calibri, sans-serif; }
 input {
-	&.search { font-size: 16px; padding: 13px 50px 13px 15px; width: 350px; border:1px solid #d7d7d7; @include appearance(none); color: #d7d7d7; position: relative; 
+	&.search { font-style: italic; font-size: 16px; padding: 13px 50px 13px 15px; width: 350px; border:1px solid #afafaf; @include appearance(none); color: #bfbfbf; position: relative; 
+		&::placeholder { color: #bfbfbf; }
 		&.hb { @include borderRadius(7px); }
 	}
-	&.oneline { font-size: 16px; padding: 11px 50px 11px 40px; width: 100%; border: none; border-bottom:1px solid #d7d7d7; @include appearance(none); color: #d7d7d7; position: relative; 
+	&.oneline { font-size: 16px; padding: 11px 50px 11px 40px; width: 100%; border: none; border-bottom:1px solid #d7d7d7; @include appearance(none); color: #000000; position: relative; 
 		&.noicon { padding-left: 0px; }
 	}
-	&.big { width: 20px; height: 20px; background: white; top: 10px; position: relative; }
+	&.big { @include appearance(none); width: 20px; height: 20px; background: white; top: 10px; position: relative; 
+	}
 }
+input[type=checkbox].big:checked { background: url('../img/material/arrow-input.png'); background-position: center center; background-repeat: no-repeat; }
 select { font-size: 16px; @include appearance(none); padding: 13px 50px 13px 15px; border: 1px solid #d7d7d7; color: #d7d7d7; position: relative;
 	&.hb { @include borderRadius(7px); }
 }
@@ -86,6 +98,7 @@ table { width: 100%;
 		th { background: #3b8ddb; color: $white; padding: 13px 15px; font-size: 16px; vertical-align: middle; }
 		td { border-right: 1px solid $gray; padding: 15px 15px 35px; color: $gray3; font-size: 16px; line-height: 24px;
 			&:first-child { border-left: 1px solid $gray; }
+			a { color: $gray3; }
 		}
 		&:last-child { 
 			td { border-bottom: 1px solid $gray; }
@@ -185,7 +198,7 @@ table { width: 100%;
 				&:hover { opacity: 1; } 
 			}
 		}
-		input { width: 743px; height: 60px; padding: 17px 30px 17px 65px; color: $gray; font-size: 16px; @include borderRadius(0px 40px 40px 0px); }
+		input { width: 743px; height: 60px; padding: 17px 30px 17px 65px; color: $gray; font-size: 22px; font-style: italic; font-weight: 100; @include borderRadius(0px 40px 40px 0px); }
 	}
 	.bigsearch { top: 16px; left: 245px; position: absolute; width: 27px; height: 27px; background: url('../img/material/search-big.png'); }
 	.b-wrapper { width: 1031px; 
@@ -215,7 +228,7 @@ table { width: 100%;
 .bs-bb { @include boxSizing(border-box); } 
 .btn { padding: 10px 21px; font-size: 16px; @include borderRadius(8px); border: 1px solid transparent;
 	&.bbor { color: $orange; border: 1px solid $orange;
-		&:hover , &:active , &:focus { background-color: $orange; color: $white;}
+		/*&:hover , &:active , &:focus { background-color: $orange; color: $white;}*/
 	}
 	&.bbbl { color: $black; border: 1px solid #acacac;
 		&:hover , &:active , &:focus { background-color: $gray2; color: $black;}
@@ -235,6 +248,7 @@ table { width: 100%;
 .c-gray5 { color: $gray5; }
 .c-orange { color: $orange; }
 .c-white { color: $white; }
+.captch { margin: 20px 0px; }
 .cat { padding: 0px 0px 7px;
 	.head-cat { font-size: 17px; padding: 5px 0px;
 		.plus-min { @include transition(all .3s ease-out); cursor: pointer; position: relative; display: inline-block; width: 14px; height: 14px; margin-right: 10px;
@@ -258,7 +272,7 @@ table { width: 100%;
 	&.hm { margin-bottom: 22px; }
 	&.hm2 { margin-bottom: 15px; }
 	&.big { font-size: 37px; line-height: 45px; }
-	&.big404 { font-size: 152px; line-height: 180px; }
+	&.big404 { font-size: 142px; font-weight: 600; color: #a00405; line-height: 180px; }
 }
 .chart { height: 400px; }
 .close-aside { cursor: pointer; margin: 0px 0px 15px; font-size: 16px; color: $black; position: relative; display: none; padding: 5px 27px;
@@ -288,6 +302,10 @@ table { width: 100%;
 		&:nth-child(3n) { margin-right: 0px;
 			&::after { content: ""; clear: both; display: block; }
 		}
+		.auth { padding-top: 35px; 
+			span , p { font-size: 18px; }
+			span { margin-bottom: 5px; }
+		}
 	}
 	&::after { content: ""; clear: both; display: block; }
 }
@@ -312,9 +330,9 @@ table { width: 100%;
 	span { width: 18px; height: 20px; background: url('../img/material/dw.png'); position: relative; display: inline-block; margin-right: 10px; }
 }
 .fhl { display: inline-block; width: 27px; height: 22px; position: absolute; margin-right: 7px; left: 0px; top: 8px;
-	&.fhl-1 { background: url('../img/material/fhl-1.png'); }
-	&.fhl-2 { background: url('../img/material/fhl-2.png'); }
-	&.fhl-3 { background: url('../img/material/fhl-3.png'); }
+	&.fhl-1 { background: url('../img/material/fhl-1.png'); background-position: top; }
+	&.fhl-2 { background: url('../img/material/fhl-2.png'); background-position: top; }
+	&.fhl-3 { background: url('../img/material/fhl-3.png'); background-position: top; }
 } 
 .filter-home { padding-bottom: 40px;
 	.fh-list {
@@ -325,14 +343,22 @@ table { width: 100%;
 				&:after { display: none; }
 			}
 			&:hover , &.active {
-				a { opacity: 1; }
+				a { opacity: 1; color: #ff9c01; }
+				span {
+					&.fhl-1 { background: url('../img/material/fhl-1.png'); background-position: bottom; }
+					&.fhl-2 { background: url('../img/material/fhl-2.png'); background-position: bottom; }
+					&.fhl-3 { background: url('../img/material/fhl-3.png'); background-position: bottom; }
+				}
 			}
 		}
 	}
 	.fh-list-mobile { display: none; margin: 15px 0px; position: relative;
 		select { @include borderRadius(4px); width: 100%; color: #a6a6a6; border-color: #acacac !important; }
 	}
-	.fh-title { font-size: 30px; }
+	.fh-title { font-size: 30px; font-weight: 600; }
+}
+.fixed-download { background: $orange; color: $white; font-size: 16px; padding: 10px 16px 10px 50px; position: fixed; right: 50px; bottom: 167px;
+	span { width: 18px; height: 20px; background: url('../img/material/dw-white.png'); margin-right: 15px; display: inline-block; position: absolute; top: 7px; left: 16px; }
 }
 .fl { float: left; }
 .form-group { position: relative; margin-right: 20px; padding: 15px 0px; }
@@ -346,6 +372,11 @@ table { width: 100%;
 	&:hover { opacity: 1; }
 } 
 .fwn { font-weight: normal; }
+.h-login { position: relative;
+	.logged-content { display: none; position: absolute; top: 55px; right: 0px; padding: 10px 29px; color: #fff; background: #ce8b1a; 
+		a { color: $white; display: block; }
+	}
+}
 .i { font-style: italic; }
 .ico-email { z-index: 1; width: 18px; height: 20px; position: absolute; top: 26px; left: 9px; background: url('../img/material/ico-email.png'); }
 .ico-filter { z-index: 1; width: 21px; height: 21px; position: absolute; top: 11px; left: 13px; background: url('../img/material/ico-filter.png'); background-size: 100%; }
@@ -442,14 +473,14 @@ table { width: 100%;
 	&::before , &::after { display:none; }
 }
 .search-list {
-	a { line-height: 20px; position: absolute; display: inline-block; top: 50%; right: 20px; resize:vertical; @include transform(translateY(-50%)); 
-		&:hover {
+	a.bbor { line-height: 20px; position: absolute; display: inline-block; top: 50%; right: 20px; resize:vertical; @include transform(translateY(-50%)); 
+		&.active { background-color: $orange; color: $white;
 			.splus { background-color: $white;
 				&::before , &::after { background-color: $orange; }
 			}
 		}		
 	}
-	b { @extend .ch-title; font-weight: normal; }
+	a.search-title { @extend .ch-title; font-weight: normal; color: $black; }
 	p { margin-bottom: 0px; }
 	span { color: $gray; }
 	.splus { position: relative; float: left; margin-right: 15px; width: 20px; height: 20px; background-color: $orange; @include borderRadius(30px); 
@@ -464,6 +495,13 @@ table { width: 100%;
 }
 .tc { text-align: center; }
 .tl { text-align: left; }
+.toggleaside {
+	.ta-child { display: none; }
+	b { cursor: pointer; }
+	&.active {
+		.ta-child { display: block; }
+	}
+}
 .tr { text-align: right; }
 .u { text-decoration: underline; }
 .utp2 { margin-top: 110px; display: block; }

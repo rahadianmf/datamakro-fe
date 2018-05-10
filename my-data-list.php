@@ -8,7 +8,7 @@
 		<br/>
 		<br/>
 		<div class="db tr">
-			<a href="" class="pre-header c-orange u db utp">Upgrade to Premium</a>
+			<a href="upgrade-to-premium.php" class="pre-header c-orange u db utp">Upgrade to Premium</a>
 			<br/>
 		</div>
 		<div class="db table">
@@ -26,7 +26,7 @@
 				<thead>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -38,7 +38,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -50,7 +50,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -62,7 +62,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -74,7 +74,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -86,7 +86,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -98,7 +98,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -110,7 +110,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -122,7 +122,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -134,7 +134,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -146,7 +146,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">
@@ -158,7 +158,7 @@
 					</tr>
 					<tr>
 						<td data-title = "Series">
-						A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+						<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 						</td>
 						<td data-title = "Unit">1</td>
 						<td data-title = "Source">

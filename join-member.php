@@ -23,7 +23,9 @@
 								<span class = "ico-password"></span>
 								<input class = "oneline" type = "password" placeholder = "Confirm Password" />
 							</div>
-							<img class = "captcha" src="img/material/captcha.png">
+							<div class="db captch">
+								<div class="g-recaptcha" data-sitekey="6LdnhlgUAAAAAM4rnOyr6oXNqKZiIT1AhQpNU_au"></div>
+							</div>
 							<button class="db btn orange w-100">LOG IN</button>
 						</form>
 					</div>

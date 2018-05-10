@@ -9,9 +9,8 @@
 			</video>
 		</div>
 		<br/>
-		<p class="pre-header mn">
+		<p class="pre-header mn c-gray3">
 			Pertumbuhan ekonomi Q2-17 tumbuh 5.01% YoY, stabil dari kuartal sebelumnya. Investasi yang tumbuh lebih cepat 5.35% YoY di Q2-17 dari 4.78% YoY Q1-17 menjadi penopang pertumbuhan secara keseluruhan. Untuk faktor penghambat, kontribusi ekspor netto turun dan belanja pemerintah tumbuh negatif. Pertumbuhan konsumsi rumah tangga stabil di 4.95% YoY.
-
 		</p>
 	</div>
 </section>

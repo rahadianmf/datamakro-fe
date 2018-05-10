@@ -16,4 +16,7 @@ $(window).on("load",function() {
 	bSearchSpan();
 	tabHome();
 	tabHomeMobile();
+	toggleaside();
+	bborToggle();
+	hLoginToggle();
 });

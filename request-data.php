@@ -43,8 +43,8 @@
 						<span class = "dib u c-blue">+ Upload Data</span> &nbsp;&nbsp; <span class = "i">(.pdf, max. size 5MB)</span>
 					</div>
 				</div>
-				<div class="form-group">
-					<img class = "captcha" src="img/material/captcha.png">
+				<div class="db captch">
+					<div class="g-recaptcha" data-sitekey="6LdnhlgUAAAAAM4rnOyr6oXNqKZiIT1AhQpNU_au"></div>
 				</div>
 				<br class = "hm" /><br/><br class = "hm" /><br/><br class = "hm" /><br/><br class = "hm" />
 				<button class="db btn orange long">LOGIN</button>

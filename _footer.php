@@ -9,7 +9,7 @@
 				</div>
 				<div class="db f-menu">
 					<a href="tutorial.php">Tutorials</a>
-					<a href="join-member.php">Contribution</a>
+					<a href="submit-data.php">Contribution</a>
 					<a href="request-data.php">Request</a>
 					<a href="get-in-touch.php">Contact</a>
 				</div>

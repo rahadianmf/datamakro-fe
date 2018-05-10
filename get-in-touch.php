@@ -19,7 +19,9 @@
 								<span class = "db c-gray3">Notes</span>
 								<input class = "oneline noicon" type = "text" placeholder = "Lorem Ipsum Dolor" />
 							</div>
-							<img class = "captcha" src="img/material/captcha.png">
+							<div class="db captch">
+								<div class="g-recaptcha" data-sitekey="6LdnhlgUAAAAAM4rnOyr6oXNqKZiIT1AhQpNU_au"></div>
+							</div>
 							<button class="db btn orange w-100">SUBMIT</button>
 						</form>
 					</div>

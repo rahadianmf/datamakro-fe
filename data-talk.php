@@ -1,7 +1,7 @@
 <?php $page = "data-talk"; $header = "active"; $login = "no"; include ('_header.php'); ?>
 <section class = "content c-standard">
 	<div class="wrapper type-2">
-		<h1 class="c-blue ch-title big hm fwn">Data Talk</h1>
+		<h1 class="c-blue ch-title big hm">Data Talk</h1>
 		<p class="pre-header c-gray3">
 			Datamakro provides broad series of macro and microeconomic data of Indonesia. Besides providing the data, Datamakro also disseminates wide score of research report to let the data speaks even further. Datamakro is very suitable for student, researcher, analyst, consultant, and policymaker who is seeking trustable data.
 		</p>
@@ -39,61 +39,109 @@
 					<img class = "w-100" src="img/content/re-search-1.png">
 					<a class="b-link" href="data-talk-detail.php">BSIM Economic Outlook 2017-2018</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-2.png">
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-1.png">
 					<a class="b-link" href="data-talk-detail.php">Update Risk to USD Asians</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-2.png">
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-1.png">
 					<a class="b-link" href="data-talk-detail.php">BSIM Economic Outlook 2017-2018</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-2.png">
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-1.png">
 					<a class="b-link" href="data-talk-detail.php">Update Risk to USD Asians</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-2.png">
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-1.png">
 					<a class="b-link" href="data-talk-detail.php">BSIM Economic Outlook 2017-2018</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-2.png">
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-1.png">
 					<a class="b-link" href="data-talk-detail.php">Update Risk to USD Asians</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 				<div class="list">
 					<img class = "w-100" src="img/content/re-search-2.png">
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
+					<div class="db auth">
+						<span class = "db b c-gray3">Author :</span>
+						<p class = "c-gray3">Junimar, Anup Khumar, Myrl Gunadarto</p>
+					</div>
 				</div>
 			</div>
 		</div>

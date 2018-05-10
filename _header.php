@@ -19,6 +19,7 @@
     <script type="text/javascript" src="js/TweenMax.min.js"></script>
     <script type="text/javascript" src="js/js-library.js"></script>
     <script type="text/javascript" src="js/js-running.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header class = "<?php if($header == 'active'){ echo 'active scrolled'; } ?>">
@@ -60,6 +61,9 @@
                             <span class = "dib login-ico"></span>
                             <font>Hi, Remmy</font>
                             <span class = "dib arrow"></span>
+                        </div>
+                        <div class="logged-content">
+                            <a href="my-data-list.php">My Data List</a>
                         </div>
                     <?php }else{ ?>
                         <a data-id = "loginpopup" class = "btn f-login popup-trigger" href="">LOG IN</a>
