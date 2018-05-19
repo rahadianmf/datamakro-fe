@@ -150,7 +150,7 @@
 									<table>
 										<thead>
 											<tr>
-												<th></th>
+												<th><input id = "checkAll" class = "big" type = "checkbox" name = "" /></th>
 												<th>Series</th>
 												<th>Unit</th>
 												<th>Source</th>
@@ -163,7 +163,7 @@
 											<tr>
 												<td><input class = "big" type = "checkbox" checked="checked" name = "" /></td>
 												<td>
-												A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+												<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 												</td>
 												<td>1</td>
 												<td>
@@ -176,7 +176,7 @@
 											<tr>
 												<td><input class = "big" type = "checkbox" name = "" /></td>
 												<td>
-												A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+												<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 												</td>
 												<td>1</td>
 												<td>
@@ -189,7 +189,7 @@
 											<tr>
 												<td><input class = "big" type = "checkbox" name = "" /></td>
 												<td>
-												A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+												<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 												</td>
 												<td>1</td>
 												<td>
@@ -202,7 +202,7 @@
 											<tr>
 												<td><input class = "big" type = "checkbox" name = "" /></td>
 												<td>
-												A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate
+												<a href = "pdb.php">A011RL1Q225SBEA, Real Gross Private Domestic Investment: Fixed Investment: Residential, Quarterly, Seasonally Adjusted Annual Rate</a>
 												</td>
 												<td>1</td>
 												<td>
@@ -310,3 +310,9 @@
 	<a class="fixed-download" href=""><span></span> Download File</a>
 </section>
 <?php include ('_footer.php'); ?>
+
+<script type="text/javascript">
+	$("#checkAll").click(function(){
+	    $('input:checkbox').not(this).prop('checked', this.checked);
+	});
+</script>

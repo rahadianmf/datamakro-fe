@@ -28,6 +28,7 @@ footer { background: $gray2; padding: 40px 0px;
 		button { @include appearance(none); border: none; background: $orange; color: $white; font-size: 16px; padding: 12px 21px; @include borderRadius(7px); }
 	}
 }
+figure { margin: 0px; padding: 0px; }
 form {
 	&.three-quarter { width: 75%; }
 }
@@ -89,22 +90,22 @@ input {
 	&.big { @include appearance(none); width: 20px; height: 20px; background: white; top: 10px; position: relative; 
 	}
 }
-input[type=checkbox].big:checked { background: url('../img/material/arrow-input.png'); background-position: center center; background-repeat: no-repeat; }
+input[type=checkbox].big:checked { background-color: $white; background-image: url('../img/material/arrow-input.png'); background-position: center center; background-repeat: no-repeat; }
 select { font-size: 16px; @include appearance(none); padding: 13px 50px 13px 15px; border: 1px solid #d7d7d7; color: #d7d7d7; position: relative;
 	&.hb { @include borderRadius(7px); }
 }
 table { width: 100%;
 	tr {
-		th { background: #3b8ddb; color: $white; padding: 13px 15px; font-size: 16px; vertical-align: middle; }
-		td { border-right: 1px solid $gray; padding: 15px 15px 35px; color: $gray3; font-size: 16px; line-height: 24px;
-			&:first-child { border-left: 1px solid $gray; }
+		th { background: #0b467e; color: $white; padding: 13px 15px; font-size: 16px; vertical-align: middle; 
+			input[type=checkbox].big { top: 0px; 
+				&:checked { background-image: url(../img/material/arrow-input-white.png); background-position: center center; background-repeat: no-repeat;}
+			}
+		}
+		td { border-bottom: 1px solid $gray; padding: 15px 15px 35px; color: $gray3; font-size: 16px; line-height: 24px;
 			a { color: $gray3; }
 		}
-		&:last-child { 
-			td { border-bottom: 1px solid $gray; }
-		}
-		&:nth-child(odd) { background: $gray2; }
-		&:nth-child(even) { background: $white; }
+		/*&:nth-child(odd) { background: $gray2; }
+		&:nth-child(even) { background: $white; }*/
 	}
 }
 
@@ -204,6 +205,7 @@ table { width: 100%;
 	.b-wrapper { width: 1031px; 
 	}
 }
+.b-gray5 { border: 1px solid #e2e2e2; }
 .bg-gray { background-color: $gray; }
 .bg-gray2 { background-color: $gray2; }
 .bg-gray3 { background-color: $gray3; }
@@ -261,7 +263,7 @@ table { width: 100%;
 			}
 		}
 	}
-	.content-cat { padding: 0px 25px; display: none; }
+	.content-cat { padding: 10px 25px; display: none; }
 	&.active {
 		> .head-cat { color: $blue; font-weight: bolder; }
 		> .content-cat { display: block; }
@@ -287,8 +289,8 @@ table { width: 100%;
 }
 .data-home {
 	.dh-list { float: left; width: 50%; padding-bottom: 30px;
-		.dhl-date { font-size: 13px; color: $gray; line-height: 16px; padding-bottom: 3px; }
-		.dhl-title { padding-bottom: 7px; font-size: 28px; color: $blue; line-height: auto; }
+		.dhl-date { font-size: 13px; color: $gray; line-height: 16px; padding-bottom: 6px; }
+		.dhl-title { padding-bottom: 7px; font-size: 26px; color: $blue; line-height: auto; }
 		p { font-size: 18px; padding-right: 30px; color: $gray3; }
 		&:nth-child(even) { border-left: 1px solid $gray; padding-left: 5%;
 			&:after { display: block; clear: both; }
@@ -298,7 +300,10 @@ table { width: 100%;
 }
 .data-list { 
 	.list { padding: 30px 0px 10px; float: left; width: 30%; margin-right: 5%; 
-		a { padding-top: 10px; display: block; font-size: 28px; line-height: 36px; font-weight: 600; padding-bottom: 15px; }
+		figure {
+			a { display: block; }
+		}
+		a.b-link { padding-top: 10px; display: block; font-size: 26px; line-height: 34px; font-weight: 600; padding-bottom: 15px; }
 		&:nth-child(3n) { margin-right: 0px;
 			&::after { content: ""; clear: both; display: block; }
 		}
@@ -357,8 +362,9 @@ table { width: 100%;
 	}
 	.fh-title { font-size: 30px; font-weight: 600; }
 }
-.fixed-download { background: $orange; color: $white; font-size: 16px; padding: 10px 16px 10px 50px; position: fixed; right: 50px; bottom: 167px;
+.fixed-download { @include transition(all .2s ease-in-out); opacity: 1; background: $orange; color: $white; font-size: 16px; padding: 10px 16px 10px 50px; position: fixed; right: 50px; bottom: 167px;
 	span { width: 18px; height: 20px; background: url('../img/material/dw-white.png'); margin-right: 15px; display: inline-block; position: absolute; top: 7px; left: 16px; }
+	&:hover , &:focus { color: $white; opacity: 0.8; } 
 }
 .fl { float: left; }
 .form-group { position: relative; margin-right: 20px; padding: 15px 0px; }
@@ -409,7 +415,7 @@ table { width: 100%;
 	ul {
 		li { padding-left: 15px; display: inline-block; font-size: 18px; position: relative;
 			a { color: $gray3; @include transition(all .2s ease-out);
-				&.active { font-size: 28px; color: $blue; font-weight: bold; }
+				&.active { font-size: 24px; color: $blue; font-weight: bold; }
 			}
 			&:first-child , &:last-child { 
 				a { color: $gray2; }

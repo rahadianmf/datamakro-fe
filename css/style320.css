@@ -87,6 +87,10 @@ footer .f-menu {
     font-size: 13px;
     line-height: 14px;
     padding: 0px 10px; }
+    footer .f-menu a:last-child {
+      padding-right: 10px; }
+    footer .f-menu a::after {
+      top: 3px; }
 footer .f-newsletter {
   text-align: center; }
 footer .f-socmed {
@@ -149,8 +153,10 @@ header {
     header .h-search input {
       width: 100%;
       padding-left: 25px;
-      border-bottom: 1px solid #dddddd;
+      border-bottom: 1px solid #bda5a5;
       color: #080808; }
+      header .h-search input:focus {
+        border-bottom: 1px solid #bda5a5 !important; }
     header .h-search span {
       background: url(../img/material/search-mobile.png) !important;
       top: 14px !important; }

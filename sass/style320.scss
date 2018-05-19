@@ -4,7 +4,12 @@ aside { top: 86px !important; height: 88vh !important; }
 footer {
 	.f-copy { text-align: center; margin-top: 15px; }
 	.f-menu { margin-top: 12px; text-align: center;
-		a { font-size: 13px; line-height: 14px; padding: 0px 10px; }
+		a { font-size: 13px; line-height: 14px; padding: 0px 10px; 
+			&:last-child {
+			    padding-right: 10px;
+			}
+			&::after { top: 3px; }
+		}
 	}
 	.f-newsletter { text-align: center; }
 	.f-socmed { text-align: center; }
@@ -31,7 +36,9 @@ header { z-index: 4 !important;
 	}
 	.h-right-mobile { display: inline-block; width: 50%; }
 	.h-search { margin-top: 130px; padding-bottom: 30px;
-		input { width: 100%; padding-left: 25px; border-bottom: 1px solid #dddddd; color: #080808; }
+		input { width: 100%; padding-left: 25px; border-bottom: 1px solid #bda5a5; color: #080808; 
+			&:focus { border-bottom: 1px solid #bda5a5 !important; }
+		}
 		span { background: url(../img/material/search-mobile.png) !important; top: 14px !important; }
 	}
 }

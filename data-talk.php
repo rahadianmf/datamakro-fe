@@ -36,7 +36,7 @@
 		<div class="db">
 			<div class="data-list">
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-1.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-1.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BSIM Economic Outlook 2017-2018</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-2.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-2.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-1.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-1.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">Update Risk to USD Asians</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-2.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-2.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -72,7 +72,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-1.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-1.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BSIM Economic Outlook 2017-2018</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -81,7 +81,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-2.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-2.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -90,7 +90,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-1.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-1.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">Update Risk to USD Asians</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -99,7 +99,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-2.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-2.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -108,7 +108,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-1.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-1.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BSIM Economic Outlook 2017-2018</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -117,7 +117,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-2.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-2.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -126,7 +126,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-1.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-1.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">Update Risk to USD Asians</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
@@ -135,7 +135,7 @@
 					</div>
 				</div>
 				<div class="list">
-					<img class = "w-100" src="img/content/re-search-2.png">
+					<figure><a href = "data-talk-detail.php"><img class = "w-100" src="img/content/re-search-2.png"></a></figure>
 					<a class="b-link" href="data-talk-detail.php">BII Industry Outlook 2014-2015</a>
 					<span class = "db c-gray3">September 2014</span>
 					<div class="db auth">
