@@ -147,7 +147,7 @@
 							<div class="head-cat"><span class = "plus-min min"></span>CPI Lorem Ipsum</div>
 							<div class="content-cat">
 								<div class="db table">
-									<table>
+									<table class = "table-cat">
 										<thead>
 											<tr>
 												<th><input id = "checkAll" class = "big" type = "checkbox" name = "" /></th>

@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:400,500,600,700');
 
 * { @include boxSizing(border-box); }
-aside , article { padding-top: 33px; display: inline-block; margin: 0px 0px; }
-aside { width: 239px; padding-right: 30px; vertical-align: top; background-image: url('../img/material/bgaside.png'); background-position: right top; background-repeat: no-repeat; 
+aside , article { display: inline-block; margin: 0px 0px; }
+aside { padding-top: 38px; width: 239px; padding-right: 30px; vertical-align: top; background-image: url('../img/material/bgaside.png'); background-position: right top; background-repeat: no-repeat; 
 	b { @extend .b-link; }
 }
-article { width: 925px; padding-left: 30px; }
+article { padding-top: 33px; width: 925px; padding-left: 30px; }
 button, input { font-family: calibri, sans-serif; }
 footer { background: $gray2; padding: 40px 0px; 
 	.f-copy { color: $gray; font-size: 14px; }
@@ -439,8 +439,8 @@ table { width: 100%;
 	&.hidden { opacity: 0; }
 }
 .popup { display: none; overflow-y: scroll; z-index: 10; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6);
-	.pop-close { cursor: pointer; width: 20px; height: 20px; top: 30px; right: 30px; position: absolute; 
-		&::before , &::after { width:1px; height: 20px; background: $gray3; content: ""; position: absolute; }
+	.pop-close { background-color: $orange; cursor: pointer; width: 36px; height: 36px; top: 0px; right: 0px; position: absolute; 
+		&::before , &::after { left: 18px; top: 7px; width:1px; height: 20px; background: $white; content: ""; position: absolute; }
 		&::before { @include rotate(45deg); }
 		&::after { @include rotate(-45deg); }
 	}
